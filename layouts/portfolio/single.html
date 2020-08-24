@@ -15,7 +15,7 @@
             <div class="project-meta">
               <i class="ti-calendar"></i>
               <div class="ml-3">
-                <h4>Date</h4>
+                <h4>Fecha</h4>
                 <p>{{ .PublishDate.Format "Jan 02, 2006" }}</p>
               </div>
             </div>
@@ -25,7 +25,7 @@
             <div class="project-meta">
               <i class="ti-user"></i>
               <div class="ml-3">
-                <h4>Client</h4>
+                <h4>Cliente</h4>
                 <p>{{. | markdownify}}</p>
               </div>
             </div>
@@ -35,7 +35,7 @@
             <div class="project-meta">
               <i class="ti-folder"></i>
               <div class="ml-3">
-                <h4>Categories</h4>
+                <h4>Categorías</h4>
                 <p>{{ delimit .Params.categories ", " | humanize }}</p>
               </div>
             </div>
@@ -45,7 +45,7 @@
             <div class="project-meta">
               <i class="ti-link"></i>
               <div class="ml-3">
-                <h4>Project Link</h4>
+                <h4>Enlace</h4>
                 <p>{{. | markdownify}}</p>
               </div>
             </div>

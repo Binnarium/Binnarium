@@ -1,35 +1,45 @@
 # work process
 work_process:
   enable : true
-  title : "Work Process"
+  title : "Nuestros Servicios"
   item:
-  - title : "Research and Plan"
+  - title : "Ambientes de Aprendizaje"
     icon : "images/icons/plan.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    content : 
+      - "Plataformas Educativas"
+      - "Laboratorios Virtuales"
     
-  - title : "Design and Develop"
+  - title : "Desarrollo de Herramientas Educativas"
     icon : "images/icons/design.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    content : 
+      - "Videojuegos, Tecnologías multimedia, materiales didácticos digitales"
+      - "Aplicaciones Móviles, Web y Entornos virtuales"
     
-  - title : "Deliver"
+  - title : "Asesoría y Capacitación"
     icon : "images/icons/print.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    content : 
+      - "Asesoría"
+      - "Capacitación"
 
 
 # team
 team:
   enable: true
-  title : "My Team"
+  title : "Nuestro Equipo"
   team_member:
-    - title : "Jack Schenziwe"
+    - title : "Jonathan Rosero"
       image : "images/team/member-1.png"
       designation : "Project Manager"
       
-    - title : "Julias Carlie"
+    - title : "Bruno Esparza"
       image : "images/team/member-2.png"
       designation : "Web Developer"
       
-    - title : "John Doe"
+    - title : "Jorge Hurtado"
+      image : "images/team/member-3.png"
+      designation : "Designer"
+
+    - title : "Ricardo Arrobo"
       image : "images/team/member-3.png"
       designation : "Designer"
 
@@ -37,5 +47,5 @@ team:
 # client logo slider
 clients_logo_slider:
   enable : true
-  title : "My Clients"
+  title : "Nuestros Clientes"
   # clients logo comes from 'data/homepage.yml' file

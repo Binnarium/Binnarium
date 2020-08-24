@@ -14,19 +14,23 @@
 
     <div class="collapse navbar-collapse text-center" id="navigation">
       <ul class="navbar-nav ml-auto">
+        <!-- Home link -->
         <li class="nav-item">
           <a class="nav-link" href="{{ site.BaseURL }}">{{ with site.Params.Home }} {{ . }} {{ end }}</a>
         </li>
+
+        <!-- dynamic links loaded from the config file -->
         {{ $current := . }}
         {{ range site.Menus.main }}
         {{ $active := or ($current.IsMenuCurrent "nav" .) ($current.HasMenuCurrent "nav" .) }}
         {{ $active = or $active (eq .Name $current.Title) }}
         {{ if .HasChildren }}
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
             {{ .Name }}
           </a>
-          <div class="dropdown-menu" >
+          <div class="dropdown-menu">
             {{ range .Children }}
             <a class="dropdown-item" href="{{ .URL | absURL }}">{{ .Name }}</a>
             {{ end }}

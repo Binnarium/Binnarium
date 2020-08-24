@@ -1,20 +1,13 @@
 /*!------------------------------------------------------------------
-[MAIN STYLESHEET]
-PROJECT: Project Name
-VERSION: Versoin Number
+[MAIN STYLE SHEET]
+PROJECT: Binary Web Site
+VERSION: 1.0
 -------------------------------------------------------------------*/
-@import "https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Roboto:300,400,500,700";
 
-@font-face {
-  font-family: bwnistaint-xbd;
-  src: url(../fonts/BwNistaInt-xBd.woff) format("woff");
-  font-style: normal;
-  font-display: swap
-}
-
+@import "https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap";
 body {
   line-height: 1.2;
-  font-family: roboto, sans-serif;
+  font-family: "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   font-size: 15px;
   color: #4c4c4c
@@ -25,69 +18,54 @@ p {
   color: #4c4c4c;
   font-size: 15px;
   line-height: 1.8;
-  font-family: roboto, sans-serif
+  font-family: "Open Sans", sans-serif
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   color: #000;
-  font-family: playfair display, serif;
+  font-family: Roboto, serif;
   line-height: 1.2
 }
 
-h1,
-.h1 {
-  font-size: 80px
+h1, .h1 {
+  font-size: 72px
 }
 
 @media(max-width:991px) {
-
-  h1,
-  .h1 {
-    font-size: 65px
+  h1, .h1 {
+    font-size: 60px
   }
 }
 
-h2,
-.h2 {
+h2, .h2 {
   font-size: 60px
 }
 
 @media(max-width:991px) {
-
-  h2,
-  .h2 {
+  h2, .h2 {
     font-size: 50px
   }
 }
 
-h3,
-.h3 {
+h3, .h3 {
   font-size: 40px
 }
 
-h4,
-.h4 {
+h4, .h4 {
   font-size: 22px
 }
 
-h5,
-.h5 {
+h5, .h5 {
   font-size: 18px
 }
 
-h6,
-.h6 {
+h6, .h6 {
   font-size: 14px
 }
 
 .btn {
   font-size: 22px;
-  font-family: playfair display, serif;
+  font-family: Roboto, serif;
   text-transform: capitalize;
   padding: 16px 44px;
   border-radius: 5px;
@@ -134,8 +112,7 @@ h6,
   background: var(--primary-color)
 }
 
-.btn-primary.focus,
-.btn-primary.active {
+.btn-primary.focus, .btn-primary.active {
   background: var(--primary-color) !important;
   box-shadow: none !important
 }
@@ -146,8 +123,7 @@ h6,
   font-weight: 700
 }
 
-.btn-transparent:active,
-.btn-transparent:hover {
+.btn-transparent:active, .btn-transparent:hover {
   color: var(--primary-color)
 }
 
@@ -174,8 +150,12 @@ body {
   justify-content: center
 }
 
-ol,
-ul {
+.simple-list {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+ol, ul {
   list-style-type: none;
   margin: 0
 }
@@ -185,22 +165,16 @@ img {
   border: 0
 }
 
-a,
-a:hover,
-a:focus {
+a, a:hover, a:focus {
   text-decoration: none
 }
 
-a,
-button,
-select {
+a, button, select {
   cursor: pointer;
   transition: .2s ease
 }
 
-a:focus,
-button:focus,
-select:focus {
+a:focus, button:focus, select:focus {
   outline: 0
 }
 
@@ -223,7 +197,7 @@ a:hover {
 
 .section-title {
   margin-bottom: 80px;
-  font-family: bwnistaint-xbd
+  font-family: Roboto
 }
 
 .bg-cover {
@@ -332,15 +306,15 @@ a:hover {
 }
 
 .font-primary {
-  font-family: roboto, serif !important
+  font-family: "Open Sans", serif !important
 }
 
 .font-secondary {
-  font-family: playfair display, serif !important
+  font-family: Roboto, serif !important
 }
 
 .font-tertiary {
-  font-family: bwnistaint-xbd !important
+  font-family: Roboto !important
 }
 
 .shadow {
@@ -410,7 +384,8 @@ textarea.form-control {
 }
 
 .card {
-  border: 0
+  border: 0;
+  height: 100%;
 }
 
 .card-header {
@@ -445,12 +420,12 @@ textarea.form-control {
 }
 
 .navbar .nav-item .nav-link {
-  font-family: bwnistaint-xbd;
+  font-family: Roboto;
   text-transform: uppercase;
   padding: 15px
 }
 
-.navbar .nav-item.active .nav-link{
+.navbar .nav-item.active .nav-link {
   color: #52f8f4;
 }
 
@@ -542,8 +517,7 @@ textarea.form-control {
   height: 100%
 }
 
-.wave::before,
-.wave::after {
+.wave::before, .wave::after {
   content: "";
   position: absolute;
   width: 800px;
@@ -569,7 +543,6 @@ textarea.form-control {
   50% {
     transform: translateX(-50%) rotate(180deg)
   }
-
   100% {
     transform: translateX(-50%) rotate(360deg)
   }
@@ -746,7 +719,7 @@ blockquote {
 }
 
 .content strong {
-  font-family: playfair display, serif;
+  font-family: Roboto, serif;
   font-size: 22px;
   font-weight: 400;
   color: #000;
@@ -827,7 +800,7 @@ blockquote {
 .page-title .bg-shape-1 {
   position: absolute;
   left: 0;
-  bottom: 0;
+  top: 0;
   width: 100%
 }
 
@@ -876,25 +849,25 @@ blockquote {
   font-weight: 700
 }
 
-.social-icons a{
+.social-icons a {
   height: 100px;
   width: 100px;
   line-height: 100px;
   border-radius: 50%;
   display: block;
-  box-shadow:  0 18px 39.1px 6.9px rgba(224,241,255,.34);
+  box-shadow: 0 18px 39.1px 6.9px rgba(224, 241, 255, .34);
   color: #fff;
   background-color: var(--primary-color);
   font-size: 20px;
   text-align: center;
 }
 
-.project-meta{
+.project-meta {
   display: flex;
   align-items: center;
 }
 
-.project-meta i{
+.project-meta i {
   height: 100px;
   min-width: 100px;
   line-height: 100px;
@@ -903,15 +876,15 @@ blockquote {
   border-radius: 50%;
   text-align: center;
   display: block;
-  box-shadow:  0 18px 39.1px 6.9px rgba(224,241,255,.34);
+  box-shadow: 0 18px 39.1px 6.9px rgba(224, 241, 255, .34);
   font-size: 30px;
 }
 
-.project-meta h4{
+.project-meta h4 {
   font-weight: bold;
   font-size: 24px;
 }
 
-.project-meta p{
+.project-meta p {
   margin-bottom: 0;
 }

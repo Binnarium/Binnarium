@@ -4,24 +4,25 @@
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
-        <h2 class="section-title">Contact Info</h2>
+        <h2 class="section-title">Contáctanos</h2>
       </div>
       <div class="col-lg-8 mx-auto">
         <div class="bg-white rounded text-center p-5 shadow-down">
-          <h4 class="mb-80">Contact Form</h4>
+          <h4 class="mb-80">Formulario de Contacto</h4>
           <form action="{{site.Params.contact.form_action}}" method="POST" class="row">
             <div class="col-md-6">
-              <input type="text" id="name" name="name" placeholder="Full Name" class="form-control px-0 mb-4">
+              <input type="text" id="name" name="name" placeholder="Nombre o Empresa" class="form-control px-0 mb-4">
             </div>
             <div class="col-md-6">
-              <input type="email" id="email" name="email" placeholder="Email Address" class="form-control px-0 mb-4">
+              <input type="email" id="email" name="email" placeholder="Correo Electrónico"
+                class="form-control px-0 mb-4">
             </div>
             <div class="col-12">
               <textarea name="message" id="message" class="form-control px-0 mb-4"
-                placeholder="Type Message Here"></textarea>
+                placeholder="Escribe tu mensaje aquí"></textarea>
             </div>
             <div class="col-lg-6 col-10 mx-auto">
-              <button class="btn btn-primary w-100">send</button>
+              <button class="btn btn-primary w-100">Enviar</button>
             </div>
           </form>
         </div>
@@ -38,15 +39,16 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4">
-          <h5 class="text-light">Email</h5>
-          <p class="text-white paragraph-lg font-secondary">{{site.Params.email}}</p>
+          <h5 class="text-light">Correo Electrónico</h5>
+          <a href="mailto:{{site.Params.email}}" target="_blanc"
+            class="text-white paragraph-lg font-secondary">{{site.Params.email}}</a>
         </div>
         <div class="col-md-4">
-          <h5 class="text-light">Phone</h5>
+          <h5 class="text-light">Teléfono Movil</h5>
           <p class="text-white paragraph-lg font-secondary">{{site.Params.phone}}</p>
         </div>
         <div class="col-md-4">
-          <h5 class="text-light">Address</h5>
+          <h5 class="text-light">Dirección</h5>
           <p class="text-white paragraph-lg font-secondary">{{site.Params.address}}</p>
         </div>
       </div>

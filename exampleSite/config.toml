@@ -1,11 +1,13 @@
 # default configuration
-baseURL = "http://examplesite.com"
-languageCode = "en-us"
+baseURL = "http://binarium.io"
+languageCode = "es-ES"
 summaryLength = "10"
 theme = "kross-hugo"
-title = "Kross"
+title = "Binarium"
 
-# css plugins
+# CSS PLUGINS
+# required to style the site, since the site uses bootstrap
+# ==============================================================
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
@@ -14,7 +16,10 @@ link = "plugins/slick/slick.css"
 link = "plugins/themify-icons/themify-icons.css"
 
 
-# js plugin
+# JS PLUGIN
+# required to style the site, since the site uses bootstrap
+# and some interactions are done with jquery
+# ==============================================================
 [[params.plugins.js]]
 link = "plugins/jQuery/jquery.min.js"
 [[params.plugins.js]]
@@ -27,10 +32,11 @@ link = "plugins/shuffle/shuffle.min.js"
 link = "plugins/google-map/map.js"
 
 
-# menu
+# MENU
+# ==============================================================
 [[menu.main]]
 URL = "about"
-name = "About"
+name = "Nosotros"
 weight = 1
 
 [[menu.main]]
@@ -40,53 +46,59 @@ weight = 2
 
 [[menu.main]]
 URL = "portfolio"
-name = "Portfolio"
+name = "Portafolio"
 weight = 3
 
 [[menu.main]]
 URL = "contact"
-name = "Contact"
+name = "Contacto"
 weight = 4
 
 
-# default parameters
+# DEFAULT PARAMETERS
+# ==============================================================
 [params]
-home = "Home"
+home = "Inicio"
 logo = ""
 # theme color
-theme_color = "#41228e"
+theme_color = "#228e5c"
 # contact info
 phone = "+880 2544 658 256"
 email = "steve.fruits@email.com"
-address = "125/A, CA Commercial Area, California, USA"
+address = "San Cayetano Alto, Calle París, Loja"
 # meta description
-author = "Johnathan Smith"
-description = "This is meta description"
+author = "Bruno Esparza"
+description = "Generando Innovación en el modelo de enseñanza aprendizaje"
 # google analytics
 google_analytics_id = "" # Your ID
 # copyright
-copyright = "Copyright &copy; 2020 a theme by [gethugothemes](https://gethugothemes.com)"
+copyright = "Copyright &copy; 2020 Binarium"
 
 
-# preloader
+# PRELOADER
+# ==============================================================
 [params.preloader]
 enable = true
 preloader = "images/preloader.gif" # use png, jpg, svg or gif format
 
-# contact
+
+# CONTACT
+# ==============================================================
 [params.contact]
 enable = true
 form_action = "#" # contact form works with : https://formspree.io
 
-# google map
+# GOOGLE MAP
+# ==============================================================
 [params.map]
 enable = true
 gmap_api = "https://maps.googleapis.com/maps/api/js?key=&#038;types=(cities)&#038;libraries=places&#038;language=en"
-map_latitude = "51.5223477"
-map_longitude = "-0.1622023"
+map_latitude = "-3.9869567"
+map_longitude = "-79.1993367"
 map_marker = "images/marker.png"
 
-# social site
+# SOCIAL SITE
+# ==============================================================
 [[params.social]]
 icon = "ti-facebook"
 URL = "#"
