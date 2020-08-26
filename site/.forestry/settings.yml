@@ -50,7 +50,7 @@ sections:
   label: Configuration
 - type: directory
   path: site
-  label: Configuration
+  label: Site Config
   create: all
   match: "*.toml"
   new_doc_ext: toml
