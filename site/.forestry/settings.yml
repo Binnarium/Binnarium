@@ -43,7 +43,7 @@ sections:
   label: Portfolio Projects
   create: documents
   match: "**/*"
-  exclude: _index.md
+  exclude: _index*
   templates:
   - project-template
 - type: heading
