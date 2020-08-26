@@ -5,13 +5,21 @@ display_field: title
 fields:
 - type: text
   name: title
-  label: title
+  label: Title
+  config:
+    required: true
 - type: datetime
   name: date
-  label: date
+  label: Publication Date
+  config:
+    required: true
+  default: now
 - type: file
   name: image
-  label: image
+  label: Cover Image
 - type: text
   name: description
-  label: description
+  label: Meta Description
+  config:
+    required: true
+    max: 150
