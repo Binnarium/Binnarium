@@ -15,6 +15,13 @@ sections:
 - type: heading
   label: Blog Post
 - type: directory
+  path: site/blog
+  label: Blog
+  create: documents
+  match: "**/*"
+  templates:
+  - blog
+- type: directory
   path: site/content/blog
   label: Post (es)
   create: documents
