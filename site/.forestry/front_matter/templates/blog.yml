@@ -15,5 +15,3 @@ fields:
 - type: text
   name: description
   label: description
-pages:
-- site/blog/qwe.md
