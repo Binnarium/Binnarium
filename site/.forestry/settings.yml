@@ -4,8 +4,37 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: directory
+  path: site/data
+  label: Homepage
+  create: all
+  match: "**/*"
+- type: heading
+  label: Author
 - type: heading
   label: Blog Post
+- type: heading
+  label: Data
+- type: heading
+  label: Configuration
+- type: directory
+  path: site
+  label: Configuration
+  create: all
+  match: "*.toml"
+  new_doc_ext: toml
+- type: directory
+  path: site/i18n
+  label: i18n
+  create: documents
+  match: "**/*"
+- type: directory
+  path: site/content/english/author
+  label: Author (en)
+  create: documents
+  match: "**/*"
+  templates:
+  - author
 - type: directory
   path: site/content/english/blog
   label: Post (en)
@@ -15,48 +44,19 @@ sections:
   templates:
   - post
 - type: directory
-  path: site/content/french/blog
-  label: Post (fr)
-  create: documents
-  match: "**/*"
-  templates:
-  - post
-- type: heading
-  label: Author
-- type: directory
-  path: site/content/english/author
-  label: Author (en)
-  create: documents
-  match: "**/*"
-  templates:
-  - author
-- type: directory
   path: site/content/french/author
   label: Author (fr)
   create: documents
   match: "**/*"
   templates:
   - author
-- type: heading
-  label: Data
 - type: directory
-  path: site/data
-  label: Homepage
-  create: all
-  match: "**/*"
-- type: directory
-  path: site/i18n
-  label: i18n
+  path: site/content/french/blog
+  label: Post (fr)
   create: documents
   match: "**/*"
-- type: heading
-  label: Configuration
-- type: directory
-  path: site
-  label: Configuration
-  create: all
-  match: "*.toml"
-  new_doc_ext: toml
+  templates:
+  - post
 upload_dir: site/static/images
 public_path: "/images"
 front_matter_path: ''
