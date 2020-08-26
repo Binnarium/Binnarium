@@ -17,12 +17,12 @@ sections:
 - type: document
   path: site/content/blog/_index.md
   label: Blog Home
-  match: "**/*"
 - type: directory
   path: site/content/blog
   label: Blog Posts
   create: documents
   match: "**/*"
+  exclude: _index.md
   templates:
   - blog
 - type: heading
