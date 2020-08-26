@@ -4,13 +4,6 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: directory
-  path: site/content/blog
-  label: Blog Posts
-  create: all
-  match: "**/*"
-  templates:
-  - blog
 - type: heading
   label: Data
 - type: document
@@ -20,22 +13,18 @@ sections:
   path: site/data/about.yml
   label: About
 - type: heading
-  label: Blog Post
+  label: Blogs
+- type: document
+  path: site/content/blog/_index.md
+  label: Blog Home
+  match: "**/*"
 - type: directory
   path: site/content/blog
-  label: Post (es)
+  label: Blog Posts
   create: documents
   match: "**/*"
   templates:
-  - post
-- type: directory
-  path: site/content/english/blog
-  label: Post (en)
-  create: documents
-  match: "**/*"
-  new_doc_ext: '20191203072044'
-  templates:
-  - post
+  - blog
 - type: heading
   label: Configuration
 - type: directory
