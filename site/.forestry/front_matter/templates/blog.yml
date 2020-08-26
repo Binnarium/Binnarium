@@ -1,0 +1,25 @@
+---
+label: Blog Template
+hide_body: false
+display_field: title
+fields:
+- type: text
+  name: title
+  label: Title
+  config:
+    required: true
+- type: datetime
+  name: date
+  label: Publication Date
+  config:
+    required: true
+  default: now
+- type: file
+  name: image
+  label: Cover Image
+- type: text
+  name: description
+  label: Meta Description
+  config:
+    required: true
+    max: 150
