@@ -4,22 +4,38 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Project Name
+  config:
+    required: true
 - type: datetime
   name: date
-  label: date
+  label: Date
+  config:
+    required: true
+  default: ''
 - type: file
   name: image
-  label: image
+  label: Cover Image
 - type: text
   name: client
-  label: client
+  label: Client Name
+  config:
+    required: true
 - type: text
   name: project_url
-  label: project_url
+  label: Project URL
+  config:
+    required: false
 - type: list
   name: categories
-  label: categories
+  label: Categories
+  config:
+    use_select: false
+    min: 1
+    max: 4
 - type: text
   name: description
-  label: description
+  label: Meta Description
+  config:
+    required: true
+    max: 150
