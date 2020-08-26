@@ -1,5 +1,5 @@
 [build]
-command = "hugo server -D -E -F --port 8080 --bind 0.0.0.0 --renderToDisk -d public"
+command = "hugo --gc --themesDir .."
 publish = "public"
 [build.environment]
 HUGO_VERSION = "0.71.1"
