@@ -13,22 +13,6 @@ sections:
   path: site/data/about.yml
   label: About
 - type: heading
-  label: Author
-- type: directory
-  path: site/content
-  label: Author (es)
-  create: documents
-  match: "**/*"
-  templates:
-  - author
-- type: directory
-  path: site/content/english/author
-  label: Author (en)
-  create: documents
-  match: "**/*"
-  templates:
-  - author
-- type: heading
   label: Blog Post
 - type: directory
   path: site/content/blog
