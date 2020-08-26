@@ -1,7 +1,6 @@
 [build]
-  publish = "site/public"
-  command = "cd site && hugo --gc --themesDir ../.."
-  
+command = "hugo server -D -E -F --port 8080 --bind 0.0.0.0 --renderToDisk -d public"
+publish = "public"
 [build.environment]
-  HUGO_VERSION = "0.71.1"
-  HUGO_THEME = "repo"
+HUGO_THEME = "repo"
+HUGO_VERSION = "0.71.1"
