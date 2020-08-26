@@ -17,21 +17,37 @@ sections:
 - type: document
   path: site/content/about/_index.md
   label: About
-- type: directory
-  path: site/content/blog
-  label: Blog
-  create: documents
-  match: "**/*"
-  templates:
-  - blog
 - type: document
   path: site/content/contact/_index.md
   label: Contact
+- type: heading
+  label: Blog
+- type: document
+  path: site/content/blog/_index.md
+  label: Blog Home
+  match: "**/*"
 - type: directory
-  path: site/content/portfolio
-  label: Portfolio
+  path: site/content/blog
+  label: Blog Posts
   create: documents
   match: "**/*"
+  exclude: _index.md
+  templates:
+  - blog
+- type: heading
+  label: Portafolio
+- type: document
+  path: site/content/portfolio/_index.md
+  label: Portafolio Home
+  match: "**/*"
+- type: directory
+  path: site/content/portfolio
+  label: Portfolio Projects
+  create: documents
+  match: "**/*"
+  exclude: _index.md
+  templates:
+  - project-template
 - type: heading
   label: Configuration
 - type: directory
