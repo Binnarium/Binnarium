@@ -1,24 +1,49 @@
-# default configuration
-baseURL = "http://binarium.io"
+baseURL = "https://binarium-test.netlify.app"
 languageCode = "es-ES"
 summaryLength = "10"
 title = "Binarium"
-
-# CSS PLUGINS
-# required to style the site, since the site uses bootstrap
-# ==============================================================
+[[menu.main]]
+URL = "about"
+name = "Nosotros"
+weight = 1
+[[menu.main]]
+URL = "blog"
+name = "Blog"
+weight = 2
+[[menu.main]]
+URL = "portfolio"
+name = "Portafolio"
+weight = 3
+[[menu.main]]
+URL = "contact"
+name = "Contacto"
+weight = 4
+[params]
+address = "San Cayetano Alto, Calle París, Loja"
+author = "Bruno Esparza"
+copyright = "Copyright &copy; 2020 Binarium"
+description = "Generando Innovación en el modelo de enseñanza aprendizaje"
+email = "steve.fruits@email.com"
+google_analytics_id = ""
+home = "Inicio"
+logo = ""
+phone = "+880 2544 658 256"
+theme_color = "#228e5c"
+[params.contact]
+enable = true
+form_action = "#"
+[params.map]
+enable = true
+gmap_api = "https://maps.googleapis.com/maps/api/js?key=&#038;types=(cities)&#038;libraries=places&#038;language=en"
+map_latitude = "-3.9869567"
+map_longitude = "-79.1993367"
+map_marker = "images/marker.png"
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
 link = "plugins/slick/slick.css"
 [[params.plugins.css]]
 link = "plugins/themify-icons/themify-icons.css"
-
-
-# JS PLUGIN
-# required to style the site, since the site uses bootstrap
-# and some interactions are done with jquery
-# ==============================================================
 [[params.plugins.js]]
 link = "plugins/jQuery/jquery.min.js"
 [[params.plugins.js]]
@@ -29,87 +54,18 @@ link = "plugins/slick/slick.min.js"
 link = "plugins/shuffle/shuffle.min.js"
 [[params.plugins.js]]
 link = "plugins/google-map/map.js"
-
-
-# MENU
-# ==============================================================
-[[menu.main]]
-URL = "about"
-name = "Nosotros"
-weight = 1
-
-[[menu.main]]
-URL = "blog"
-name = "Blog"
-weight = 2
-
-[[menu.main]]
-URL = "portfolio"
-name = "Portafolio"
-weight = 3
-
-[[menu.main]]
-URL = "contact"
-name = "Contacto"
-weight = 4
-
-
-# DEFAULT PARAMETERS
-# ==============================================================
-[params]
-home = "Inicio"
-logo = ""
-# theme color
-theme_color = "#228e5c"
-# contact info
-phone = "+880 2544 658 256"
-email = "steve.fruits@email.com"
-address = "San Cayetano Alto, Calle París, Loja"
-# meta description
-author = "Bruno Esparza"
-description = "Generando Innovación en el modelo de enseñanza aprendizaje"
-# google analytics
-google_analytics_id = "" # Your ID
-# copyright
-copyright = "Copyright &copy; 2020 Binarium"
-
-
-# PRELOADER
-# ==============================================================
 [params.preloader]
 enable = true
-preloader = "images/preloader.gif" # use png, jpg, svg or gif format
-
-
-# CONTACT
-# ==============================================================
-[params.contact]
-enable = true
-form_action = "#" # contact form works with : https://formspree.io
-
-# GOOGLE MAP
-# ==============================================================
-[params.map]
-enable = true
-gmap_api = "https://maps.googleapis.com/maps/api/js?key=&#038;types=(cities)&#038;libraries=places&#038;language=en"
-map_latitude = "-3.9869567"
-map_longitude = "-79.1993367"
-map_marker = "images/marker.png"
-
-# SOCIAL SITE
-# ==============================================================
+preloader = "images/preloader.gif"
 [[params.social]]
+URL = "#"
 icon = "ti-facebook"
-URL = "#"
-
 [[params.social]]
+URL = "#"
 icon = "ti-instagram"
-URL = "#"
-
 [[params.social]]
+URL = "#"
 icon = "ti-dribbble"
-URL = "#"
-
 [[params.social]]
-icon = "ti-twitter-alt"
 URL = "#"
+icon = "ti-twitter-alt"
