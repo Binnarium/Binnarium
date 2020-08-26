@@ -13,25 +13,29 @@ sections:
   path: site/data/about.yml
   label: About
 - type: heading
-  label: Blogs
+  label: Content
 - type: document
-  path: site/content/blog/_index.md
-  label: Blog Home
+  path: site/content/about/_index.md
+  label: About
+  match: "**/*"
 - type: directory
   path: site/content/blog
-  label: Blog Posts
+  label: Blog
   create: documents
   match: "**/*"
-  exclude: _index.md
   templates:
   - blog
-- type: heading
-  label: Configuration
+- type: document
+  path: site/content/contact/_index.md
+  label: Contact
+  match: "**/*"
 - type: directory
-  path: site/i18n
-  label: i18n
+  path: site/content/portfolio
+  label: Portfolio
   create: documents
   match: "**/*"
+- type: heading
+  label: Configuration
 - type: directory
   path: site
   label: Configuration
