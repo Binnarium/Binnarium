@@ -26,11 +26,11 @@ team:
     image: "/images/jona.jpg"
     designation: CEO
   - title: Bruno Esparza
-    image: images/team/member-2.png
+    image: "/images/bruno-esparza.jpg"
     designation: CTO
   - title: Jorge Hurtado
-    image: images/team/member-3.png
-    designation: Designer
+    image: "/images/jorge-hurtado.jpg"
+    designation: UX-UI Designer
   - title: Ricardo Arrobo
     image: images/team/member-3.png
     designation: Backend Senior Developer
