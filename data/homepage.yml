@@ -81,13 +81,12 @@ testimonial:
       sus usuarios y sus clientes. Esta muy enfocada en los detalles y crear experiencias
       de aprendizaje únicas.
   - name: Jessica Julie
-    image: images/testimonial/client-1.png
-    designation: CEO, Funder
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit
-      esse cillum dolore eu fugiat nulla pariatur.
+    image: "/images/team/member-2.png"
+    designation: Rectora, Gotitas del Saber
+    content: Binarium nos otorgo no solo una plataforma de calidad, nos dio una experiencia
+      de educación conforme al siglo XXI, transformó como educábamos y nos llevo en
+      conjunto a la tecnología a una nueva era con grandes posibilidades de mejorar
+      la enseñanza.
 clients_logo_slider:
   enable: true
   item:
