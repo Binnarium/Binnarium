@@ -23,11 +23,11 @@ address = "San Cayetano Alto, Calle París, Loja"
 author = "Binarium"
 copyright = "Copyright &copy; 2020 Binarium"
 description = "Generando Innovación en el modelo de enseñanza aprendizaje"
-email = "steve.fruits@email.com"
+email = "serviciocliente@binarium.com"
 google_analytics_id = ""
 home = "Inicio"
 logo = ""
-phone = "+880 2544 658 256"
+phone = "+593 987307747"
 theme_color = "#228e5c"
 [params.contact]
 enable = true
