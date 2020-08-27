@@ -5,7 +5,7 @@ image: "/images/hestia.PNG"
 client: John Doe
 project_url: https://themefisher.com/
 categories:
-- design
+- Herramientas Educativas
 description: This is meta description.
 
 ---
