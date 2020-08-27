@@ -40,3 +40,5 @@ fields:
   config:
     required: true
     max: 150
+pages:
+- content/portfolio/contratos-inteligentes.md
