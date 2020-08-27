@@ -1,51 +1,39 @@
-# work process
+---
 work_process:
-  enable : true
-  title : "Nuestros Servicios"
+  enable: true
+  title: Nuestros Servicios
   item:
-  - title : "Ambientes de Aprendizaje"
-    icon : "images/icons/plan.png"
-    content : 
-      - "Plataformas Educativas"
-      - "Laboratorios Virtuales"
-    
-  - title : "Desarrollo de Herramientas Educativas"
-    icon : "images/icons/design.png"
-    content : 
-      - "Videojuegos, Tecnologías multimedia, materiales didácticos digitales"
-      - "Aplicaciones Móviles, Web y Entornos virtuales"
-    
-  - title : "Asesoría y Capacitación"
-    icon : "images/icons/print.png"
-    content : 
-      - "Asesoría"
-      - "Capacitación"
-
-
-# team
+  - title: Ambientes de Aprendizaje
+    icon: images/icons/plan.png
+    content:
+    - Plataformas Educativas
+    - Laboratorios Virtuales
+  - title: Desarrollo de Herramientas Educativas
+    icon: images/icons/design.png
+    content:
+    - Videojuegos, Tecnologías multimedia, materiales didácticos digitales
+    - Aplicaciones Móviles, Web y Entornos virtuales
+  - title: Asesoría y Capacitación
+    icon: images/icons/print.png
+    content:
+    - Asesoría
+    - Capacitación
 team:
   enable: true
-  title : "Nuestro Equipo"
+  title: Nuestro Equipo
   team_member:
-    - title : "Jonathan Rosero"
-      image : "images/team/member-1.png"
-      designation : "Project Manager"
-      
-    - title : "Bruno Esparza"
-      image : "images/team/member-2.png"
-      designation : "Web Developer"
-      
-    - title : "Jorge Hurtado"
-      image : "images/team/member-3.png"
-      designation : "Designer"
-
-    - title : "Ricardo Arrobo"
-      image : "images/team/member-3.png"
-      designation : "Designer"
-
-
-# client logo slider
+  - title: Jonathan Rosero
+    image: images/team/member-1.png
+    designation: Project Manager
+  - title: Bruno Esparza
+    image: images/team/member-2.png
+    designation: Web Developer
+  - title: Jorge Hurtado
+    image: images/team/member-3.png
+    designation: Designer
+  - title: Ricardo Arrobo
+    image: images/team/member-3.png
+    designation: Backend Senior Developer
 clients_logo_slider:
-  enable : true
-  title : "Nuestros Clientes"
-  # clients logo comes from 'data/homepage.yml' file
+  enable: true
+  title: Nuestros Clientes
