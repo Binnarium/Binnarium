@@ -20,7 +20,7 @@ name = "Contacto"
 weight = 4
 [params]
 address = "San Cayetano Alto, Calle París, Loja"
-author = "Bruno Esparza"
+author = "Binarium"
 copyright = "Copyright &copy; 2020 Binarium"
 description = "Generando Innovación en el modelo de enseñanza aprendizaje"
 email = "steve.fruits@email.com"
