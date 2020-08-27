@@ -1,7 +1,6 @@
 +++
 date = 2020-08-27T18:34:20Z
 description = "La estimulación temprana"
-draft = true
 image = "/images/primeros-anos.jfif"
 title = "En los primeros años se construye la vida"
 
