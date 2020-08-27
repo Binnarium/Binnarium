@@ -1,5 +1,5 @@
 ---
-title: Educación virtual para tiempos de COVID
+title: Guía para educadores del siglo XXI
 date: 2020-08-27T16:55:00+00:00
 image: "/images/education_zoom.jpg"
 description: This is meta description.
