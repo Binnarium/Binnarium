@@ -2,7 +2,7 @@
 title: Guía para educadores del siglo XXI
 date: 2020-08-27T16:55:00+00:00
 image: "/images/education_zoom.jpg"
-description: This is meta description.
+description: Guía de educación
 
 ---
 Todos nos estamos de repente graduando del colegio Zoom la escuela Zoom y por supuesto la mejor universidad del internet el Zoom University, y esto se está volviendo un problema porque no es la forma en la que nosotros esperábamos ser educados nosotros esperábamos tener una educación de calidad presencial.
