@@ -3,7 +3,6 @@ categories = ["Asesoría y Capacitación"]
 client = "Ascendere"
 date = 2020-08-27T05:00:00Z
 description = "Meta description"
-draft = true
 image = "/images/design.jpg"
 project_url = ""
 title = "Diseño centrado en el usuario para proyectos de Ascendere"
