@@ -74,14 +74,12 @@ testimonial:
       en lo que hacen y gustan de trabajar. Su aporte para Unidos por la Educación
       fue de gran ayuda creando un repositorio de herramientas educativas que todo
       el Ecuador usa.
-  - name: Shirley Scot
-    image: images/testimonial/client-1.png
-    designation: CEO, Funder
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit
-      esse cillum dolore eu fugiat nulla pariatur.
+  - name: John Forge
+    image: "/images/about/author.jpg"
+    designation: Director de SINFIN
+    content: Un trabajo impecable, Binarium es una empresa que se preocupa mucho por
+      sus usuarios y sus clientes. Esta muy enfocada en los detalles y crear experiencias
+      de aprendizaje únicas.
   - name: Jessica Julie
     image: images/testimonial/client-1.png
     designation: CEO, Funder
