@@ -1,7 +1,6 @@
 +++
 date = 2020-08-27T18:40:53Z
 description = "La inclusión"
-draft = true
 image = "/images/inslusion.jpg"
 title = "Los desafíos de la inclusión en tiempos de COVID-19"
 
