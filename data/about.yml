@@ -32,7 +32,7 @@ team:
     image: "/images/jorge-hurtado.jpg"
     designation: UX-UI Designer
   - title: Ricardo Arrobo
-    image: "/images/ricardo-arrobo.jpg"
+    image: "/images/ricardo-arrobo.PNG"
     designation: Backend Senior Developer
 clients_logo_slider:
   enable: true
