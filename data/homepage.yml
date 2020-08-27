@@ -1,145 +1,119 @@
-# banner
+---
 banner:
-  title : "Un gran lugar para la educación"
-
-# about
+  title: Un gran lugar para la educación
 about:
-  enable : true
-  content : "Generando innovación en el modelo de enseñanza aprendizaje"
+  enable: true
+  content: Generando innovación en el modelo de enseñanza aprendizaje
   button:
-    enable : true
-    label : "Conoce más"
-    URL : "about"
-
-# service
+    enable: true
+    label: Conoce más
+    URL: about
 service:
-  enable : true
-  title : "Servicios"
+  enable: true
+  title: Servicios
   item:
-    - title : "Ambientes de Aprendizaje"
-      icon : "ti-desktop"
-      content : "Apoyamos el modelo de enseñanza aprendizaje implementando **Plataformas Educativas** y **Laboratorios Virtuales** en tu institución."
-      highlighted : false
-
-    - title : "Desarrollo de Herramientas Educativas"
-      icon : "ti-shortcode"
-      content : "Desarrollamos **recursos educativos** digitales enfocados en tu entorno y a medida."
-      highlighted : true
-
-    - title : "Asesoría y Capacitación"
-      icon : "ti-world"
-      content : "Contamos con **profesionales altamente capacitados** en educación, capaces de llevar tu institución a la era digital."
-      highlighted : false
-
-# experience
+  - title: Ambientes de Aprendizaje
+    icon: ti-desktop
+    content: Apoyamos el modelo de enseñanza aprendizaje implementando **Plataformas
+      Educativas** y **Laboratorios Virtuales** en tu institución.
+    highlighted: false
+  - title: Desarrollo de Herramientas Educativas
+    icon: ti-shortcode
+    content: Desarrollamos **recursos educativos** digitales enfocados en tu entorno
+      y a medida.
+    highlighted: true
+  - title: Asesoría y Capacitación
+    icon: ti-world
+    content: Contamos con **profesionales altamente capacitados** en educación, capaces
+      de llevar tu institución a la era digital.
+    highlighted: false
 experience:
-  enable : true
-  title : "Experience"
-  item: 
-    - logo : "images/experience/icon-1.png"
-      title : "Junior UX Designer"
-      company : "WEBEX"
-      duration : "Jan 2007 - Feb 2009"
-      
-    - logo : "images/experience/icon-2.png"
-      title : "UX & UI Designer"
-      company : "AUGMEDIX"
-      duration : "Mar 2009 - Aug 2014"
-      
-    - logo : "images/experience/icon-1.png"
-      title : "Senior UI Designer"
-      company : "THEMEFISHER"
-      duration : "Sep 2014 - Present"
-
-# education
+  enable: true
+  title: Experiencia
+  item:
+  - logo: images/experience/icon-1.png
+    title: Laboratorio de Innovación Docente
+    company: UTPL
+    duration: Octubre 2017 - Octubre 2021
+  - logo: images/experience/icon-2.png
+    title: UX & UI Designer
+    company: AUGMEDIX
+    duration: Mar 2009 - Aug 2014
+  - logo: images/experience/icon-1.png
+    title: Senior UI Designer
+    company: THEMEFISHER
+    duration: Sep 2014 - Present
 education:
-  enable : true
-  title : "Educación"
+  enable: true
+  title: Educación
   item:
-    # - title : "Sistemas Informáticos y Computación"
-    #   year : "2021"
-    #   academy : "Universidad Técnica Particular de Loja"
-      
-    - title : "Transformación Digital"
-      year : "2020"
-      academy : "Digital Transformation - Universidad de Virginia"
-      
-    - title : "Mercados Financieros "
-      year : "2020"
-      academy : "Financial Markets - Yale University"
-      
-    - title : "Diseño y Experiencia de Usuario"
-      year : "2020"
-      academy : "UI / UX Design - California Institute of the Arts"
-
-    - title : "Pensamiento de diseño"
-      year : "2020"
-      academy : "Design Thinking - Universidad de Virginia"
-
-
-# portfolio
+  - title: Transformación Digital
+    year: "2020"
+    academy: Digital Transformation - Universidad de Virginia
+  - title: 'Mercados Financieros '
+    year: "2020"
+    academy: Financial Markets - Yale University
+  - title: Diseño y Experiencia de Usuario
+    year: "2020"
+    academy: UI / UX Design - California Institute of the Arts
+  - title: Pensamiento de diseño
+    year: "2020"
+    academy: Design Thinking - Universidad de Virginia
 portfolio:
-  enable : true
-  title : "Portafolio"
-  item_show : 5
-  # portfolio item comes from 'data/portfolio.yml' item.
-
-# testimonial
+  enable: true
+  title: Portafolio
+  item_show: "5"
 testimonial:
-  enable : true
-  title : "Testimonios"
+  enable: true
+  title: Testimonios
   item:
-    - name : "Jesica Gomez"
-      image : "images/testimonial/client-1.png"
-      designation : "CEO, Funder"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-      
-    - name : "Shirley Scot"
-      image : "images/testimonial/client-1.png"
-      designation : "CEO, Funder"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-      
-    - name : "Jessica Julie"
-      image : "images/testimonial/client-1.png"
-      designation : "CEO, Funder"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-
-# client logo slider
+  - name: Jesica Gomez
+    image: images/testimonial/client-1.png
+    designation: CEO, Funder
+    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit
+      esse cillum dolore eu fugiat nulla pariatur.
+  - name: Shirley Scot
+    image: images/testimonial/client-1.png
+    designation: CEO, Funder
+    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit
+      esse cillum dolore eu fugiat nulla pariatur.
+  - name: Jessica Julie
+    image: images/testimonial/client-1.png
+    designation: CEO, Funder
+    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit
+      esse cillum dolore eu fugiat nulla pariatur.
 clients_logo_slider:
-  enable : true
+  enable: true
   item:
-    - logo : "images/clients-logo/client-logo-1.png"
-      URL : "http://site.com"
-      
-    - logo : "images/clients-logo/client-logo-2.png"
-      URL : "#"
-      
-    - logo : "images/clients-logo/client-logo-3.png"
-      URL : "http://site.com"
-      
-    - logo : "images/clients-logo/client-logo-4.png"
-      URL : "#"
-      
-    - logo : "images/clients-logo/client-logo-5.png"
-      URL : "http://site.com"
-      
-    - logo : "images/clients-logo/client-logo-1.png"
-      URL : "#"
-      
-    - logo : "images/clients-logo/client-logo-2.png"
-      URL : "http://site.com"
-      
-    - logo : "images/clients-logo/client-logo-3.png"
-      URL : "#"
-      
-    - logo : "images/clients-logo/client-logo-4.png"
-      URL : "http://site.com"
-      
-    - logo : "images/clients-logo/client-logo-5.png"
-      URL : "#"
-
-# blog
+  - logo: images/clients-logo/client-logo-1.png
+    URL: http://site.com
+  - logo: images/clients-logo/client-logo-2.png
+    URL: "#"
+  - logo: images/clients-logo/client-logo-3.png
+    URL: http://site.com
+  - logo: images/clients-logo/client-logo-4.png
+    URL: "#"
+  - logo: images/clients-logo/client-logo-5.png
+    URL: http://site.com
+  - logo: images/clients-logo/client-logo-1.png
+    URL: "#"
+  - logo: images/clients-logo/client-logo-2.png
+    URL: http://site.com
+  - logo: images/clients-logo/client-logo-3.png
+    URL: "#"
+  - logo: images/clients-logo/client-logo-4.png
+    URL: http://site.com
+  - logo: images/clients-logo/client-logo-5.png
+    URL: "#"
 blog:
-  enable : true
-  title : "Últimas Publicaciones"
-  # blog post comes from "content/blog" folder
+  enable: true
+  title: Últimas Publicaciones
