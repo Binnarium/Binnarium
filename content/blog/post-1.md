@@ -1,6 +1,6 @@
 ---
 title: Educación virtual para tiempos de COVID
-date: 2019-05-12T12:14:34.000+06:00
+date: 2020-08-27T16:55:00+00:00
 image: "/images/education_zoom.jpg"
 description: This is meta description.
 
