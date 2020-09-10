@@ -6,6 +6,9 @@
 
 - id: send
   translation: send message
+  
+- id: language
+  translation: Languages
 
 - id: contact_info
   translation: Contact Info

@@ -89,7 +89,7 @@ contact_form_action = "#" # contact form works with https://formspree.io
 # Google Analitycs
 google_analitycs_id = ""
 # top header
-top_header = true
+top_header = false
 
 # Preloader
 [params.preloader]
@@ -140,7 +140,7 @@ link = "#"
 
 ################################### Spanish language #####################################
 [Languages.es]
-languageName = "Es"
+languageName = "Español"
 languageCode = "es-ES"
 contentDir = "content/spanish"
 weight = 1
@@ -150,7 +150,7 @@ copyright = "Derechos de Autor &copy; 2020 Binarium"
 
 #################################### English language #####################################
 [Languages.en]
-languageName = "En"
+languageName = " English"
 languageCode = "en-us"
 contentDir = "content/english"
 weight = 2
