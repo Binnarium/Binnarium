@@ -11,22 +11,19 @@
   translation: Información de contacto
 
 - id: subscribe_newsletter
-  translation: Contáctanos
+  translation: Recibe notificaciones
 
 - id: subscribe
-  translation: S’abonner
+  translation: Suscribete
 
 - id: contact_us
   translation: Contáctanos
 
 - id: latest_article
-  translation: Dernier article
+  translation: Últimas Publicaciones
 
 - id: categories
   translation: Categorías
-
-- id: tags
-  translation: Etiquetas
 
 - id: see_all
   translation: Ver Todos
@@ -54,7 +51,7 @@
   translation: emplacement
 
 - id: join
-  translation: S’abonner
+  translation: Suscribete
 
 - id: enter_email
   translation: Ingresa tu email

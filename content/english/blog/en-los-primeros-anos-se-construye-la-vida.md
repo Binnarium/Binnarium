@@ -7,7 +7,6 @@ draft: false
 bg_image: "images/backgrounds/page-title.jpg"
 description : "At present, with the advancement of science, it has been determined that the first six years of a child's life are of vital importance for their future development."
 categories: ["Learning"]
-tags: ["Early Learning", "Child"]
 # type
 type: "post"
 ---

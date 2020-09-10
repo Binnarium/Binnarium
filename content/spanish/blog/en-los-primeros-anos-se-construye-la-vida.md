@@ -1,10 +1,11 @@
-+++
-date = 2020-08-27T18:34:20Z
-description = "La estimulación temprana"
-image = "/images/primeros.jpg"
-title = "En los primeros años se construye la vida"
-
-+++
+---
+date: 2020-08-27T18:34:20Z
+description: "La estimulación temprana"
+image: "/images/primeros.jpg"
+title: "En los primeros años se construye la vida"
+type: "post"
+categories: ["Estimulación Temprana", "Aprendizaje"]
+---
 En la actualidad, con el avance de la ciencia se ha determinado que los primeros seis años de vida del niño son de vital importancia para su desarrollo futuro. La intervención oportuna mediante la estimulación temprana, abre una serie de oportunidades que favorecen el desenvolvimiento del infante en el ámbito social, cognitivo, afectivo y motriz; de acuerdo a la OMS (2005), : “el 60% de los niños menores de seis años no se encuentran estimulados, lo cual puede condicionar un retraso en cualquiera de sus tres esferas” (p.2). De este modo se destaca la importancia de una estimulación adecuada, oportuna, continua y diferenciada.
 
 La estimulación es un proceso que permite al niño crear una serie de conexiones neuronales denominadas sinapsis, misma que da lugar a estructuras funcionales en su cerebro que forman una base muy importante para el aprendizaje. Su aplicación se inicia desde los primeros años de vida del infante; a través de ejercicios sencillos o juegos que el cuidador puede emplear según la edad del niño o niña. De este modo durante la primera infancia como menciona la UNICEF (2011): “los estímulos presentados en este periodo son fundamentales para desarrollar sus sentidos, movimientos, pensamiento y aprendizaje.” (p.3). Beneficiando así su desarrollo, condición que incidirá directamente en la fundamentación de sus condiciones hacia el aprendizaje.

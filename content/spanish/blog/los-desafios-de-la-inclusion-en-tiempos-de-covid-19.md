@@ -1,10 +1,11 @@
-+++
-date = 2020-08-27T18:40:53Z
-description = "La inclusión"
-image = "/images/inslusion.jpg"
-title = "Los desafíos de la inclusión en tiempos de COVID-19"
-
-+++
+---
+date: 2020-08-27T18:40:53Z
+description: "La inclusión"
+image: "/images/inslusion.jpg"
+title: "Los desafíos de la inclusión en tiempos de COVID-19"
+type: "post"
+categories: ["Educación", "Inclusión"]
+---
 Al hablar del desafío de la educación inclusiva en tiempos de COVID-19, es imprescindible abordar el rediseño de la escuela, mismo que implica la adaptación hacia una nueva realidad educativa, iniciando con la implementación de protocolos de bioseguridad, que permitan evidenciar que los alumnos se encuentren en lugares seguros y libres de contaminación; así también, se abordará el replanteamiento de nuevas metodologías y estrategias pedagógicas para mejorar el sistema educativo. Una de ellas es el aula invertida, aquel espacio colaborativo de interacción entre el estudiante y docente.
 
 Sin olvidarnos de la relevancia que conlleva la flexibilización del currículo, la inserción del diseño universal de aprendizaje (DUA), promoviendo de gran manera la educación inclusiva y respondiendo hacia las necesidades de la diversidad; además de los aprendizajes basados en proyectos, los cuales determinan resultados positivos en la escuela con la ayuda de la familia.
