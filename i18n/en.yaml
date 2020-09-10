@@ -1,0 +1,89 @@
+- id: read_more
+  translation: Read More
+
+- id: contact_form
+  translation: Contact Form
+
+- id: send
+  translation: send message
+
+- id: contact_info
+  translation: Contact Info
+
+- id: subscribe_newsletter
+  translation: Subscribe Newsletter
+
+- id: subscribe
+  translation: Subscribe
+
+- id: contact_us
+  translation: Contact Us
+
+- id: latest_article
+  translation: Latest Article
+
+- id: categories
+  translation: Categories
+
+- id: tags
+  translation: Tags
+
+- id: see_all
+  translation: See all
+
+- id: view_project
+  translation: View Project
+
+- id: date
+  translation: Date
+
+- id: time
+  translation: time
+
+- id: category
+  translation: Category
+
+- id: client
+  translation: Client
+
+- id: employee
+  translation: Team
+
+- id: location
+  translation: location
+
+- id: join
+  translation: Join
+  
+- id: enter_email
+  translation: Enter your email…
+
+- id: company
+  translation: company
+
+- id: links
+  translation: links
+
+- id: portfolio
+  translation: Portfolio
+
+- id: blog
+  translation: Blog
+
+- id: call
+  translation: call
+
+- id: email
+  translation: email
+
+- id: all
+  translation: All
+
+- id: interest
+  translation: SUMMARY OF ACTIVITIES/INTERESTS
+
+- id: our_founders
+  translation: Founders
+
+- id: download
+  translation: Download

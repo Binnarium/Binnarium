@@ -1,17 +1,15 @@
-<div class="col-lg-4 col-sm-6 mb-4">
-  <article class="card shadow">
-    <div class="rounded aspect-ratio">
-      <img class="card-img-top" src="{{.Params.Image | relURL}}" alt="{{.Title }}">
-    </div>
-    <div class="card-body">
-      <h4 class="card-title text-truncate"><a class="text-dark " href="{{.Permalink}}"
-          title="{{.Title }}">{{.Title }}</a>
-      </h4>
-      <div class="text-aspect-ratio">
-        <p class="card-text">{{.Summary}}</p>
-        <div class="overflow-blur"></div>
-      </div>
-      <a href="{{.Permalink}}" class="btn btn-sm btn-primary">Ver más</a>
-    </div>
-  </article>
-</div>
+<article class="card rounded-0 border-bottom border-primary border-top-0 border-left-0 border-right-0 hover-shadow">
+  <div class="aspect-ratio">
+    <img class="card-img-top rounded-0" src="{{ .Params.Image | relURL }}" alt="{{ .Title }}">
+  </div>
+  <div class="card-body">
+    <!-- post meta -->
+    <ul class="list-inline mb-3">
+      <!-- post date -->
+      <li class="list-inline-item mr-3 ml-0"><i class="ti-calendar"></i> {{ .PublishDate.Format "02 Jan, 2006" }}</li>
+    </ul>
+    <h4 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+    <p class="card-text">{{ .Summary | truncate 100 }}</p>
+    <a href="{{ .Permalink }}" class="btn btn-primary btn-sm">{{ i18n "read_more" }}</a>
+  </div>
+</article>

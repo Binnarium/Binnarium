@@ -1,0 +1,39 @@
+---
+work_process:
+  enable: true
+  title: Nuestros Servicios
+  item:
+  - title: Ambientes de Aprendizaje
+    icon: images/icons/plan.png
+    content:
+    - Plataformas Educativas
+    - Laboratorios Virtuales
+  - title: Desarrollo de Herramientas Educativas
+    icon: images/icons/design.png
+    content:
+    - Videojuegos, Tecnologías multimedia, materiales didácticos digitales
+    - Aplicaciones Móviles, Web y Entornos virtuales
+  - title: Asesoría y Capacitación
+    icon: images/icons/print.png
+    content:
+    - Asesoría
+    - Capacitación
+team:
+  enable: true
+  title: Nuestro Equipo
+  team_member:
+  - title: Jonathan Rosero
+    image: "/images/jona.jpg"
+    designation: CEO
+  - title: Bruno Esparza
+    image: "/images/bruno-esparza.jpg"
+    designation: CTO
+  - title: Jorge Hurtado
+    image: "/images/jorge-hurtado.jpg"
+    designation: UX-UI Designer
+  - title: Ricardo Arrobo
+    image: "/images/ricardo-arrobo.PNG"
+    designation: Backend Senior Developer
+clients_logo_slider:
+  enable: true
+  title: Nuestros Clientes

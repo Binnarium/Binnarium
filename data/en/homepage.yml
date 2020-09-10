@@ -1,0 +1,137 @@
+################################# Slider #####################################
+slider:
+  enable : true
+  bg_image : "images/banner/banner-1.jpg"
+  slider_item:
+    # slider item loop
+    - title : "Learning Environments"
+      content : "We support the teaching-learning model by implementing **Educational Platforms** and **Virtual Laboratories** in your institution."
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "Contact now"
+        link : "contact"
+
+    # slider item loop
+    - title : "Development of Educational Tools"
+      content : "We develop **educational resources** digital focused on your environment and tailored."
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "Contact now"
+        link : "contact"
+
+    # slider item loop
+    - title : "Consulting and Training"
+      content : "We have **highly trained** professionals in education, capable of taking your institution into the digital age."
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "Contact now"
+        link : "contact"
+
+
+############################### Banner feature ###############################
+banner_feature:
+  enable : true
+  image : "images/banner/banner-feature.png"
+  feature_item:
+    # feature item loop
+    - name : "Digital Transformation"
+      icon : "ti-book" # icon pack : https://themify.me/themify-icons
+      content : "University of Virginia"
+
+    # feature item loop
+    - name : "Financial Markets"
+      icon : "ti-book" # icon pack : https://themify.me/themify-icons
+      content : "Yale University"
+
+    # feature item loop
+    - name : "UI / UX Design"
+      icon : "ti-book" # icon pack : https://themify.me/themify-icons
+      content : "California Institute of the Arts"
+
+    # feature item loop
+    - name : "Design Thinking"
+      icon : "ti-book" # icon pack : https://themify.me/themify-icons
+      content : "University of Virginia"
+
+
+############################## about ##################################
+about:
+  enable : true
+  title : "About Binarium"
+  image : "images/about/about-us.jpg"
+  content : "We are innovating in the new learning model."
+  button:
+    enable : true
+    label : "Learn more"
+    link : "about"
+
+
+############################# Portfolio ################################
+portfolio:
+  enable : true
+  title : "Portfolio"
+
+########################## Call to action ############################
+cta:
+  enable : false
+  subtitle : "Click to Join the Advance Workshop"
+  title : "Training In Advannce Networking"
+  button:
+    enable : true
+    label : "join now"
+    link : "contact"
+
+
+######################## Success story #############################
+success_story:
+  enable : true
+  bg_image : "images/backgrounds/success-story.jpg"
+  title : "Unidos por la Educación"
+  content : "**United!**, businessmen, teachers, family, students, all together, strong as a fist, 
+  we must form a great team that works to improve educational quality; In isolation, little or nothing 
+  can be done. The educational situation in Ecuador has progressed but is far from reaching optimal levels. 
+  The State, through evaluations, continuous training, investment in infrastructure, does everything possible 
+  to improve this situation, but if each individual does not shoulder the responsibility that corresponds 
+  to him, from the place where he is, there is no You will be able to have a truly competitive, innovative 
+  country with the capacity for progress."
+  video_link : "https://www.youtube.com/watch?v=ResipmZmpDU"
+
+
+########################### funfacts ############################
+funfacts:
+  enable : true
+  funfact_item:
+    # funfact item loop
+    - name : "PROJECTS COMPLETED"
+      count : "10"
+
+    # funfact item loop
+    - name : "ACTIVE USERS"
+      count : "10000"
+
+    # funfact item loop
+    - name : "BLOGS POSTEDS"
+      count : "50"
+
+    # funfact item loop
+    - name : "SATISFIED CLIENT"
+      count : "1400"
+
+# funfact is for about page
+
+
+
+############################# blog ################################
+blog:
+  enable : true
+  title : "Latest Posts"
+  # blog item comes from "content/**/blog" folder.
