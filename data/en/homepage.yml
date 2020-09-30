@@ -106,30 +106,6 @@ success_story:
   video_link : "https://www.youtube.com/watch?v=ResipmZmpDU"
 
 
-########################### funfacts ############################
-funfacts:
-  enable : true
-  funfact_item:
-    # funfact item loop
-    - name : "PROJECTS COMPLETED"
-      count : "10"
-
-    # funfact item loop
-    - name : "ACTIVE USERS"
-      count : "10000"
-
-    # funfact item loop
-    - name : "BLOGS POSTEDS"
-      count : "50"
-
-    # funfact item loop
-    - name : "SATISFIED CLIENT"
-      count : "1400"
-
-# funfact is for about page
-
-
-
 ############################# blog ################################
 blog:
   enable : true

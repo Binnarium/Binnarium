@@ -3,7 +3,7 @@
     <img class="card-img-top rounded-0" src="{{ .Params.Image | relURL }}" alt="{{ .Title }}">
   </div>
   <div class="card-body">
-    <h4 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+    <h4 class="card-title" title="{{ .Title }}"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
     <p>{{ .Params.Role }}</p>
     <ul class="list-inline">
       {{ range .Params.Contact }}
