@@ -20,19 +20,19 @@ sections:
   templates:
   - project-template
 
-# - type: document
-#   path: content/english/portfolio/_index.md
-#   label: Ingles / Home
-#   match: "**/*"
+- type: document
+  path: content/english/portfolio/_index.md
+  label: Ingles / Home
+  match: "**/*"
   
-# - type: directory
-#   path: content/english/portfolio
-#   label: Portfolio Projects
-#   create: documents
-#   match: "**/*"
-#   exclude: _index*
-#   templates:
-#   - project-template
+- type: directory
+  path: content/english/portfolio
+  label: Portfolio Projects
+  create: documents
+  match: "**/*"
+  exclude: _index*
+  templates:
+  - project-template
 
 # 
 # 
@@ -54,16 +54,16 @@ sections:
   match: "**/*"
   exclude: _index*
 
-# - type: document
-#   path: content/english/blog/_index.md
-#   label: English / Home
+- type: document
+  path: content/english/blog/_index.md
+  label: English / Home
 
-# - type: directory
-#   path: content/english/blog
-#   label: English / Posts
-#   create: all
-#   match: "**/*"
-#   exclude: _index*
+- type: directory
+  path: content/english/blog
+  label: English / Posts
+  create: all
+  match: "**/*"
+  exclude: _index*
 
 
 # 
@@ -79,9 +79,9 @@ sections:
   path: data/es/homepage.md
   label: Español / Página de Inicio
 
-# - type: document
-#   path: data/en/homepage.md
-#   label: English / Homepage
+- type: document
+  path: data/en/homepage.md
+  label: English / Homepage
 # 
 # 
 # 
@@ -99,13 +99,13 @@ sections:
   path: data/es/about.md
   label: Español / Datos Sobre Nosotros
 
-# - type: document
-#   path: content/english/about/_index.md
-#   label: English / About Us
+- type: document
+  path: content/english/about/_index.md
+  label: English / About Us
 
-# - type: document
-#   path: data/en/about.md
-#   label: English / Stats About Us
+- type: document
+  path: data/en/about.md
+  label: English / Stats About Us
 
 # 
 # 
@@ -119,9 +119,9 @@ sections:
   path: content/spanish/contact/_index.md
   label: Español / Contacto
 
-# - type: document
-#   path: content/english/contact/_index.md
-#   label: English / Contact
+- type: document
+  path: content/english/contact/_index.md
+  label: English / Contact
 # 
 # 
 # 
@@ -142,16 +142,16 @@ sections:
   match: "**/*"
   exclude: _index*
 
-# - type: document
-#   path: content/english/employee/_index.md
-#   label: English / Home
+- type: document
+  path: content/english/employee/_index.md
+  label: English / Home
 
-# - type: directory
-#   path: content/english/employee
-#   label: English / Team
-#   create: all
-#   match: "**/*"
-#   exclude: _index*
+- type: directory
+  path: content/english/employee
+  label: English / Team
+  create: all
+  match: "**/*"
+  exclude: _index*
 
 # 
 # 

@@ -10,12 +10,19 @@ image: ""
 description : "Generando innovación en el modelo de enseñanza aprendizaje."
 ---
 
-## Misión
+### Misión
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Contribuir para mejorar los sistemas educativos y empresariales, a través de
+soluciones integrales e innovadoras que les permitan adaptarse a las nuevas
+tendencias de cada uno de sus ámbitos.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+### Visión
 
-## Visión
+Ser referencia nacional e internacional en creación de soluciones integrales e
+innovadoras de educación y tecnología.
 
-Deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia.
+### Valores
+
+* Dedicación al cliente - procurar satisfacción
+* Pasión – por aquello que la innovación, la formación y la tecnología pueden proporcionar a los usuarios.
+* Integridad – actuar con integridad es vital para construir y mantener la confianza y buenas relaciones.

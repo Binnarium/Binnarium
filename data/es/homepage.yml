@@ -4,36 +4,36 @@ slider:
   bg_image : "images/banner/banner-1.jpg"
   slider_item:
     # slider item loop
-    - title : "Ambientes de Aprendizaje"
-      content : "Apoyamos el modelo de enseñanza aprendizaje implementando **Plataformas Educativas** y **Laboratorios Virtuales** en tu institución."
+    - title : "Ambientes de aprendizaje"
+      content : "Apoyamos el modelo de enseñanza aprendizaje implementando **plataformas educativas** y **laboratorios virtuales** en tu institución."
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
       button:
         enable : true
-        label : "Contrata ahora"
+        label : "Más Información"
         link : "contact"
 
     # slider item loop
-    - title : "Desarrollo de Herramientas Educativas"
-      content : "Desarrollamos **recursos educativos** digitales enfocados en tu entorno y a medida."
+    - title : "Desarrollo de herramientas educativas"
+      content : "Desarrollamos **recursos educativos digitales** enfocados en tu entorno y a medida."
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
       button:
         enable : true
-        label : "Contrata ahora"
+        label : "Más Información"
         link : "contact"
 
     # slider item loop
     - title : "Asesoría y Capacitación"
-      content : "Contamos con **profesionales altamente capacitados** en educación, capaces de llevar tu institución a la era digital."
+      content : "Contamos **con profesionales altamente capacitados** para llevar a tu institución a la era digital."
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
       button:
         enable : true
-        label : "Contrata ahora"
+        label : "Más Información"
         link : "contact"
 
 
@@ -66,7 +66,7 @@ banner_feature:
 ############################## about ##################################
 about:
   enable : true
-  title : "Acerca de Binarium"
+  title : "Somos Binarium"
   image : "images/about/about-us.jpg"
   content : "Generamos innovación en el modelo de enseñanza aprendizaje."
   button:
@@ -97,12 +97,12 @@ success_story:
   enable : true
   bg_image : "images/backgrounds/success-story.jpg"
   title : "Unidos por la Educación"
-  content : "**Unidos!**, empresarios, maestros, familia, estudiantes, todos juntos fuertes como un puño debemos formar un 
-  gran equipo que trabaje para mejorar la calidad educativa; de manera aislada, poco o nada se puede hacer, la situación
-   de la educación en el Ecuador ha progresado pero está lejos de alcanzar los niveles óptimos; el Estado a través de las 
-   evaluaciones, capacitaciones continuas, inversión en infraestructura, hace lo posible por mejorar esta situación, 
-   pero si cada individuo, no se pone al hombro la cuota de responsabilidad que le corresponde, desde el lugar en donde 
-   se encuentre no se podrá lograr tener un país realmente competitivo, innovador y con capacidades de progreso.
+  content : "Formamos parte de esta alianza entre el sector público y privado, que aporta desde
+  distintos frentes al desarrollo **en el campo educativo en Ecuador**.
+
+  En 2020, el proyecto **logró pactar un histórico convenio con el Ministerio de
+  Educación** para que la calidad de la educación que reciben los 4,4 millones de
+  estudiantes en el país pueda mejorar.
   "
   # video link
   video_link : "https://www.youtube.com/watch?v=ResipmZmpDU"
@@ -120,5 +120,5 @@ success_story:
 ############################# blog ################################
 blog:
   enable : true
-  title : "Ultimas Publicaciones"
+  title : "Mundo Binarium"
   # blog item comes from "content/**/blog" folder.

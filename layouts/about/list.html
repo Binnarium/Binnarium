@@ -5,17 +5,21 @@
 <!-- about -->
 <section class="section">
   <div class="container">
-    <div class="row">
-      <div class="col-12">
+    <div class="d-flex justify-content-center">
+      <div class="col-12 col-md-10 mb-4 ">
         {{ with .Params.Image }}
         <img class="img-fluid w-100 mb-4" src="{{ . | relURL }}" alt="about image">
         {{ end }}
-        {{ .Content }}
+        <div class="content">
+          {{ .Content }}
+        </div>
       </div>
     </div>
   </div>
 </section>
 <!-- /about -->
+
+
 
 <!-- funfacts -->
 {{ if $data.about.funfacts.enable }}
@@ -39,9 +43,37 @@
 {{ end }}
 <!-- /funfacts -->
 
+<!-- banner-feature -->
+{{ if $data.homepage.banner_feature.enable }}
+{{ with $data.homepage.banner_feature }}
+<section class="bg-gray overflow-md-hidden">
+  <div class="container-fluid p-0">
+    <div class="row no-gutters">
+      <div class="col-xl-4 col-lg-5 align-self-end">
+        <img class="img-fluid w-100" src="{{ .image | absURL }}" alt="banner-feature">
+      </div>
+      <div class="col-xl-8 col-lg-7">
+        <div class="row feature-blocks bg-gray justify-content-between">
+          {{ range .feature_item }}
+          <div class="col-sm-6 col-xl-5 mb-xl-5 mb-lg-3 mb-4 text-center text-sm-left">
+            <i class="{{ .icon }} mb-xl-4 mb-lg-3 mb-4 feature-icon"></i>
+            <h3 class="mb-xl-4 mb-lg-3 mb-4">{{ .name | markdownify }}</h3>
+            <p>{{ .content | markdownify }}</p>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /banner-feature -->
+
 <!-- success story -->
 {{ partial "success-story.html" . }}
 <!-- /success story -->
+
 
 <!-- founder -->
 {{ if $data.about.founders.enable }}

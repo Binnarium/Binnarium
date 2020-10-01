@@ -23,7 +23,7 @@
   translation: Contáctanos
 
 - id: latest_article
-  translation: Últimas Publicaciones
+  translation: Mundo Binarium
 
 - id: categories
   translation: Categorías
@@ -60,16 +60,16 @@
   translation: Ingresa tu email
 
 - id: company
-  translation: Compañía
+  translation: Conócenos
 
 - id: links
   translation: Enlaces
 
 - id: portfolio
-  translation: Portafolio
+  translation: ¿Qué hacemos?
 
 - id: blog
-  translation: Publicaciones
+  translation: Mundo Binarium
 
 - id: call
   translation: appeler
