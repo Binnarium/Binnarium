@@ -7,6 +7,11 @@ sections:
 - type: heading
   label: Blog
 - type: directory
+  path: content/english/blog
+  label: English
+  create: all
+  match: "**/*"
+- type: directory
   path: content/spanish/blog
   label: Español
   create: all
