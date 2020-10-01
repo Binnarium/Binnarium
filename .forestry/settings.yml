@@ -20,7 +20,11 @@ sections:
   label: Portafolio
 - type: document
   path: content/spanish/portfolio/_index.md
-  label: Portafolio / Español / Inicio
+  label: Español / Inicio
+- type: document
+  path: content/english/portfolio/_index.md
+  label: Ingles / Proyectos
+  match: "**/*"
 - type: directory
   path: content/portfolio
   label: Portfolio Projects
