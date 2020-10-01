@@ -1,7 +1,6 @@
 founders:
   enable : true
   title : "Founders"
-  numberOfEmployees : 4
 
 funfacts:
   enable : true

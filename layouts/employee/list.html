@@ -13,7 +13,7 @@
           {{ $categories = $categories | append .Params.Role }}
           {{ end }}
           {{ range ( $categories | uniq ) }}
-          <li class="list-inline-item m-3 text-uppercase" data-filter="{{ . | urlize }}">{{ . | humanize }}</li>
+          <li class="list-inline-item m-3 text-uppercase" data-filter="{{ . | urlize }}">{{ . }}</li>
           {{ end }}
         </ul>
       </div>

@@ -1,13 +1,20 @@
-+++
-categories = ["Asesoría y Capacitación"]
-client = "Ascendere"
-date = 2020-08-27T05:00:00Z
-description = "Meta description"
-image = "/images/design.jpg"
-project_url = ""
-title = "Diseño centrado en el usuario para proyectos de Ascendere"
+---
 
-+++
+description: "Meta description"
+image: "/images/design.jpg"
+title: "Diseño centrado en el usuario para proyectos de Ascendere"
+information:
+    - name: Fecha
+      value: 27 de agosto, 2020
+      icon: ti-calendar
+    - name: Cliente
+      value: UTPL
+      icon: ti-user
+    - name: Categoría
+      value: Herramientas Educativas
+      icon: ti-folder
+---
+
 #### Descripción
 
 **Pensamiento de diseño** o Design Thinking hace referencia a los procesos cognitivos, estratégicos y prácticos mediante los cuales se elaboran los conceptos relacionados con el diseño (propuestas de nuevos productos, edificios, máquinas, etc.). Muchos de los conceptos y aspectos fundamentales del pensamiento de diseño han sido definidos por medio de estudios, en diferentes áreas del diseño, de la cognición del diseño y de la actividad de diseño tanto en laboratorios como en entornos naturales.

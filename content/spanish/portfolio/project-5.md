@@ -1,13 +1,18 @@
 ---
 title: Feria Virtual de Emprendimiento
-date: 2019-05-12T12:14:34.000+06:00
 image: "/images/feria-virtual.jpg"
-client: John Doe
 project_url: https://themefisher.com/
-categories:
-- Ambientes de Aprendizaje
 description: This is meta description.
-
+information:
+    - name: Fecha
+      value: 27 de agosto, 2020
+      icon: ti-calendar
+    - name: Cliente
+      value: UTPL
+      icon: ti-user
+    - name: Categoría
+      value: Ambientes de Aprendizaje
+      icon: ti-folder
 ---
 #### Descripción
 

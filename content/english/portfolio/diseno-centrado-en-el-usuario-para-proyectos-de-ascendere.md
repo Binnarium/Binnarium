@@ -1,11 +1,16 @@
 ---
-category: "Asesoría y Capacitación"
 client: "Ascendere"
 date: 2020-08-27T05:00:00Z
 description: "Design Thinking or Design Thinking refers to the cognitive, strategic and practical processes through which the concepts related to design are elaborated"
 image: "/images/design.jpg"
 title: "User-Centered Design for Ascendere Projects"
-type: "portfolio"
+information:
+    - name: Date
+      value: August 27, 2020
+      icon: ti-calendar
+    - name: Category
+      value: Capacitation
+      icon: ti-folder
 ---
 #### Descripción
 

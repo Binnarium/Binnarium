@@ -1,13 +1,19 @@
 ---
 title: "Contratos inteligentes"
-date: 2020-08-27T05:00:00Z
 draft: false
 bg_image: "images/backgrounds/page-title.jpg"
-category: "Herramientas Educativas"
-client: "UTPL"
 description: "Mediante la tecnología de Blockchain se ha creado contratos inteligentes para los pasantes del laboratorio de innovación y formación docente"
 image: "/images/blockchain.jpg"
-type: "portfolio"
+information:
+    - name: Fecha
+      value: 27 de agosto, 2020
+      icon: ti-calendar
+    - name: Cliente
+      value: UTPL
+      icon: ti-user
+    - name: Categoría
+      value: Herramientas Educativas
+      icon: ti-folder
 ---
 
 ### Descripción

@@ -3,59 +3,40 @@
 <!-- section -->
 <section class="section-sm">
   <div class="container">
-    <div class="row">
-      <div class="col-12 mb-4">
+    <div class="d-flex justify-content-center">
+      <div class="col-12 col-md-10 mb-4 ">
         <!-- portfolio thumb -->
-        <img style="height: 500px;width: 100%;object-fit: cover;" src="{{ .Params.Image | relURL }}"
-          class="img-fluid w-100">
+        <img src="{{ .Params.Image | relURL }}" class="img-fluid w-100">
       </div>
     </div>
     <!-- portfolio info -->
-    <div class="row align-items-center mb-5">
-      <div class="col-xl-3 order-1 col-sm-6 mb-4 mb-xl-0">
+    <div class="d-flex flex-column flex-md-row mb-3 mb-sm-5 justify-content-between">
+      <div class="mr-5">
         <h2>{{ .Title }}</h2>
       </div>
-      <div class="col-xl-6 order-sm-3 order-xl-2 col-12 order-2">
-        <ul class="list-inline text-xl-center">
-          <li class="list-inline-item mr-4 mb-3 mb-sm-0">
-            <div class="d-flex align-items-center">
-              <i class="ti-calendar text-primary icon-md mr-2"></i>
-              <div class="text-left">
-                <h6 class="mb-0">{{ i18n "date" | upper }}</h6>
-                <p class="mb-0">{{ .Params.date }}</p>
-              </div>
-            </div>
-          </li>
-          <li class="list-inline-item mr-4 mb-3 mb-sm-0">
-            <div class="d-flex align-items-center">
-              <i class="ti-user text-primary icon-md mr-2"></i>
-              <div class="text-left">
-                <h6 class="mb-0">{{ i18n "client" | upper }}</h6>
-                <p class="mb-0">{{ .Params.client }}</p>
-              </div>
-            </div>
-          </li>
-          <li class="list-inline-item mr-4 mb-3 mb-sm-0">
-            <div class="d-flex align-items-center">
-              <i class="ti-folder text-primary icon-md mr-2"></i>
-              <div class="text-left">
-                <h6 class="mb-0">{{ i18n "category" | upper }}</h6>
-                <p class="mb-0">{{ .Params.category }}</p>
-              </div>
-            </div>
-          </li>
-        </ul>
-      </div>
       {{ if .Params.project_url }}
-      <div class="col-xl-3 text-sm-right text-left order-sm-2 order-3 order-xl-3 col-sm-6 mb-4 mb-xl-0">
+      <div>
         <a href="{{ .Params.project_url | safeURL }}" class="btn btn-primary">{{ i18n "view_project" }}</a>
       </div>
       {{ end }}
-      <!-- border -->
-      <div class="col-12 mt-4 order-4">
-        <div class="border-bottom border-primary"></div>
-      </div>
     </div>
+
+    {{ if .Params.information }}
+    <div class="d-flex flex-column flex-sm-row flex-wrap mb-5 border-bottom border-primary pb-3">
+      {{ range .Params.information }}
+      <div class="mr-5 mb-3 ">
+        <div class="d-flex align-items-center">
+          <i class="{{ .icon }} text-primary icon-md mr-3"></i>
+          <div class="text-left">
+            <h6 class="mb-0">{{ .name | upper }}</h6>
+            <p class="mb-0">{{ .value }}</p>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+    {{ end }}
+
     <!-- portfolio details -->
     <div class="row">
       <div class="col-12 mb-4 content">

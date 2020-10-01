@@ -1,13 +1,18 @@
 ---
 title: TEMIS
-date: 2019-05-12T12:14:34.000+06:00
 image: "/images/temis.jpg"
-client: John Doe
 project_url: https://themefisher.com/
-categories:
-- Herramientas Educativas
 description: This is meta description.
-
+information:
+    - name: Fecha
+      value: 27 de agosto, 2020
+      icon: ti-calendar
+    - name: Cliente
+      value: UTPL
+      icon: ti-user
+    - name: Categoría
+      value: Herramientas Educativas
+      icon: ti-folder
 ---
 #### Descripción
 
