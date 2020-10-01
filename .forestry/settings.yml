@@ -17,6 +17,19 @@ sections:
   create: all
   match: "**/*"
 - type: heading
+  label: Portafolio
+- type: document
+  path: content/spanish/portfolio/_index.md
+  label: Portafolio / Español / Inicio
+- type: directory
+  path: content/portfolio
+  label: Portfolio Projects
+  create: documents
+  match: "**/*"
+  exclude: _index*
+  templates:
+  - project-template
+- type: heading
   label: Data
 - type: document
   path: data/homepage.yml
@@ -32,19 +45,6 @@ sections:
 - type: document
   path: content/contact/_index.md
   label: Contact
-- type: heading
-  label: Portafolio
-- type: document
-  path: content/portfolio/_index.md
-  label: Portafolio Home
-- type: directory
-  path: content/portfolio
-  label: Portfolio Projects
-  create: documents
-  match: "**/*"
-  exclude: _index*
-  templates:
-  - project-template
 - type: heading
   label: Configuration
 - type: directory
