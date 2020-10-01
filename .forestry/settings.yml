@@ -6,16 +6,11 @@ webhook_url:
 sections:
 - type: heading
   label: Blog
-- type: document
-  path: content/spanish/blog/_index.md
-  label: Inicio
-  match: "**/*"
 - type: directory
   path: content/spanish/blog
-  label: Blogs
+  label: Español
   create: all
   match: "**/*"
-  exclude: _index.md
 - type: heading
   label: Data
 - type: document
