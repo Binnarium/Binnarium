@@ -23,6 +23,3 @@ fields:
   config:
     required: true
     max: 150
-pages:
-- content/blog/en-los-primeros-anos-se-construye-la-vida.md
-- content/blog/los-desafios-de-la-inclusion-en-tiempos-de-covid-19.md
