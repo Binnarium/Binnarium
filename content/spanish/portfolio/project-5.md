@@ -13,6 +13,7 @@ information:
     - name: Categoría
       value: Ambientes de Aprendizaje
       icon: ti-folder
+weight: 3
 ---
 #### Descripción
 

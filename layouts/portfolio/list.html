@@ -1,8 +1,46 @@
 {{ define "main" }}
 
-<!-- porfolio -->
-<section class="section">
+{{ $data := index site.Data site.Language.Lang }}
+
+<section class="section pb-0">
   <div class="container">
+    <div class="row">
+      {{ with $data.homepage.slider }}
+      {{ range .slider_item }}
+
+      <div class="col-md-4 d-flex flex-column align-items-center mb-5">
+        <h4 class="text-center mb-3">
+          {{ .title  }}
+        </h4>
+
+        <p class=" mb-4 text-center">
+          {{ .content | markdownify }}
+        </p>
+
+        {{ if .button.enable }}
+        <a href="{{ .button.link | absLangURL }}" class="btn btn-sm btn-primary mt-auto">
+          {{ .button.label }}
+        </a>
+        {{ end }}
+      </div>
+      {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<!-- porfolio -->
+<section class="section pt-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="d-flex align-items-center section-title justify-content-between">
+          <h2 class="mb-0 text-nowrap mr-3">{{ $data.homepage.portfolio.title }}</h2>
+          <div class="border-top w-100 border-primary d-none d-sm-block"></div>
+        </div>
+      </div>
+    </div>
+
     <!-- portfolio list -->
     <div class="row justify-content-center">
       <!-- portfolio item -->

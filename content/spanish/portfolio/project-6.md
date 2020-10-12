@@ -13,6 +13,7 @@ information:
     - name: Categoría
       value: Herramientas Educativas
       icon: ti-folder
+weight: 2
 ---
 
 #### Descripción

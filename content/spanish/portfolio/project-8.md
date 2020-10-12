@@ -1,7 +1,7 @@
 ---
 title: Unidos por la Educación
 image: "/images/educacion.jpg"
-project_url: https://themefisher.com/
+project_url: https://uxe.indevelopment.company/
 description: This is meta description.
 information:
     - name: Fecha
@@ -13,6 +13,7 @@ information:
     - name: Categoría
       value: Ambientes de Aprendizaje
       icon: ti-folder
+weight: 1
 ---
 
 #### Descripción
