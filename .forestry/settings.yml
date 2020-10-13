@@ -6,11 +6,9 @@ webhook_url:
 sections:
 - type: heading
   label: Portafolio / Portfolio
-
 - type: document
   path: content/spanish/portfolio/_index.md
   label: Español / Inicio
-  
 - type: directory
   path: content/spanish/portfolio
   label: Español / Proyectos
@@ -19,156 +17,54 @@ sections:
   exclude: _index*
   templates:
   - project-template
-
-# - type: document
-#   path: content/english/portfolio/_index.md
-#   label: Ingles / Home
-#   match: "**/*"
-  
-# - type: directory
-#   path: content/english/portfolio
-#   label: Portfolio Projects
-#   create: documents
-#   match: "**/*"
-#   exclude: _index*
-#   templates:
-#   - project-template
-
-# 
-# 
-# 
-# 
-# 
-
 - type: heading
   label: Publicaciones / Post
-
 - type: document
   path: content/spanish/blog/_index.md
   label: Español / Inicio
-
 - type: directory
   path: content/spanish/blog
   label: Español / Publicaciones
   create: all
   match: "**/*"
   exclude: _index*
-
-# - type: document
-#   path: content/english/blog/_index.md
-#   label: English / Home
-
-# - type: directory
-#   path: content/english/blog
-#   label: English / Posts
-#   create: all
-#   match: "**/*"
-#   exclude: _index*
-
-
-# 
-# 
-# 
-# 
-# 
-
 - type: heading
   label: Inicio Home
-
 - type: document
   path: data/es/homepage.md
   label: Español / Página de Inicio
-
-# - type: document
-#   path: data/en/homepage.md
-#   label: English / Homepage
-# 
-# 
-# 
-# 
-# 
-
 - type: heading
   label: Sobre Nosotros / About Us
-
 - type: document
   path: content/spanish/about/_index.md
   label: Español / Sobre Nosotros
-
 - type: document
   path: data/es/about.md
   label: Español / Datos Sobre Nosotros
-
-# - type: document
-#   path: content/english/about/_index.md
-#   label: English / About Us
-
-# - type: document
-#   path: data/en/about.md
-#   label: English / Stats About Us
-
-# 
-# 
-# 
-# 
-# 
 - type: heading
   label: Contacto / Contact
-
 - type: document
   path: content/spanish/contact/_index.md
   label: Español / Contacto
-
-# - type: document
-#   path: content/english/contact/_index.md
-#   label: English / Contact
-# 
-# 
-# 
-# 
-# 
-
 - type: heading
   label: Equipo / Team
-
 - type: document
   path: content/spanish/employee/_index.md
   label: Español / Inicio
-
 - type: directory
   path: content/spanish/employee
   label: Español / Equipo
   create: all
   match: "**/*"
   exclude: _index*
-
-# - type: document
-#   path: content/english/employee/_index.md
-#   label: English / Home
-
-# - type: directory
-#   path: content/english/employee
-#   label: English / Team
-#   create: all
-#   match: "**/*"
-#   exclude: _index*
-
-# 
-# 
-# 
-# 
-# 
-
 - type: heading
   label: Configuración
-
 - type: directory
   path: ''
   label: Configuración del Sitio
   create: all
   match: "*.toml"
   new_doc_ext: toml
-
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''

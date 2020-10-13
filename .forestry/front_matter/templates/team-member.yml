@@ -1,0 +1,32 @@
+---
+label: Team Member
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: file
+  name: image
+  label: image
+- type: text
+  name: role
+  label: role
+- type: number
+  name: weight
+  label: weight
+- type: text
+  name: type
+  label: type
+- type: field_group_list
+  name: contact
+  label: contact
+  fields:
+  - type: text
+    name: name
+    label: name
+  - type: text
+    name: icon
+    label: icon
+  - type: text
+    name: link
+    label: link
