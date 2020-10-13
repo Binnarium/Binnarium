@@ -5,18 +5,18 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: heading
-  label: Portafolio / Portfolio
+  label: Portafolio
 - type: document
   path: content/spanish/portfolio/_index.md
-  label: Español / Inicio
+  label: Página de inicio
 - type: directory
   path: content/spanish/portfolio
-  label: Español / Proyectos
+  label: Proyectos
   create: documents
   match: "**/*"
   exclude: _index*
   templates:
-  - project-template
+  - portafolio
 - type: heading
   label: Publicaciones / Post
 - type: document
