@@ -53,10 +53,12 @@ sections:
   label: Español / Inicio
 - type: directory
   path: content/spanish/employee
-  label: Español / Equipo
+  label: Equipo
   create: all
   match: "**/*"
   exclude: _index*
+  templates:
+  - team-member
 - type: heading
   label: Configuración
 - type: directory
