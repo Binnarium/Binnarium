@@ -1,0 +1,29 @@
+---
+label: Portafolio
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: file
+  name: bg_image
+  label: bg_image
+- type: textarea
+  name: description
+  label: description
+- type: file
+  name: image
+  label: image
+- type: field_group_list
+  name: information
+  label: information
+  fields:
+  - type: text
+    name: name
+    label: name
+  - type: text
+    name: value
+    label: value
+  - type: text
+    name: icon
+    label: icon
