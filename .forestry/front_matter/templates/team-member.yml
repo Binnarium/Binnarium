@@ -4,29 +4,69 @@ hide_body: true
 fields:
 - type: text
   name: title
-  label: title
+  label: Nombre
+  config:
+    required: true
+    min: 
 - type: file
   name: image
-  label: image
-- type: text
-  name: role
-  label: role
+  label: Foto Perfil
+- name: role
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - CEO
+    - CTO
+    - Equipo Márquetin
+    - Design Team
+    - Equipo de Desarrollo
+    source:
+      type: simple
+      section: site-config
+      file: 
+      path: 
+  label: Role
 - type: number
   name: weight
-  label: weight
-- type: text
-  name: type
-  label: type
+  label: Orden
+- name: type
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - founder
+    - employee
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Tipo de empleado
 - type: field_group_list
   name: contact
-  label: contact
+  label: Contacto
   fields:
   - type: text
     name: name
-    label: name
+    label: Nombre del Contacto
+    description: Ejemplo:<br>- Email<br>- Facebook<br>- Twitter
+    config:
+      required: true
   - type: text
     name: icon
-    label: icon
+    label: Icono
+    description: 'Nombre del icono para utilizar, lista de iconos: <a href="https://themify.me/themify-icons"
+      title="https://themify.me/themify-icons" target="_blank">https://themify.me/themify-icons</a>'
+    config:
+      required: true
   - type: text
     name: link
-    label: link
+    label: Enlace
+    description: Enlace, puede ser una dirección de correo, o enlace de internet
+    config:
+      required: true
+  config:
+    labelField: name
