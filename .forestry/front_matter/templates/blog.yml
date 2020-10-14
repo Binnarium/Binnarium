@@ -2,21 +2,32 @@
 label: 'Blog '
 hide_body: false
 fields:
-- type: datetime
-  name: date
-  label: date
-- type: text
-  name: description
-  label: description
-- type: file
-  name: image
-  label: image
 - type: text
   name: title
-  label: title
+  label: titulo
+  config:
+    required: true
+- type: text
+  name: description
+  label: Descripción
+  config:
+    required: true
+    max: 150
+- type: datetime
+  name: date
+  label: Fecha
+  config:
+    required: true
+- type: file
+  name: image
+  label: Imagen
 - type: text
   name: type
-  label: type
+  label: Tipo
+  default: post
+  hidden: true
 - type: list
   name: categories
-  label: categories
+  label: Categorías
+  config:
+    use_select: false
