@@ -5,6 +5,11 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: heading
+  label: Inicio
+- type: document
+  path: data/es/homepage.md
+  label: Página de Inicio
+- type: heading
   label: Portafolio
 - type: document
   path: content/spanish/portfolio/_index.md
@@ -21,36 +26,33 @@ sections:
   label: Mundo Binarium
 - type: document
   path: content/spanish/blog/_index.md
-  label: Español / Inicio
+  label: Inicio
 - type: directory
   path: content/spanish/blog
-  label: Español / Publicaciones
+  label: Publicaciones
   create: all
   match: "**/*"
   exclude: _index*
+  templates:
+  - blog
 - type: heading
-  label: Inicio Home
-- type: document
-  path: data/es/homepage.md
-  label: Español / Página de Inicio
-- type: heading
-  label: Sobre Nosotros / About Us
+  label: Sobre Nosotros
 - type: document
   path: content/spanish/about/_index.md
-  label: Español / Sobre Nosotros
+  label: Sobre Nosotros
 - type: document
   path: data/es/about.md
-  label: Español / Datos Sobre Nosotros
+  label: Datos Sobre Nosotros
 - type: heading
-  label: Contacto / Contact
+  label: Contacto
 - type: document
   path: content/spanish/contact/_index.md
-  label: Español / Contacto
+  label: Contacto
 - type: heading
-  label: Equipo / Team
+  label: Equipo
 - type: document
   path: content/spanish/employee/_index.md
-  label: Español / Inicio
+  label: Inicio
 - type: directory
   path: content/spanish/employee
   label: Equipo
