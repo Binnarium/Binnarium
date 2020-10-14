@@ -7,7 +7,7 @@ sections:
 - type: heading
   label: Inicio
 - type: document
-  path: data/es/homepage.md
+  path: data/es/homepage.yml
   label: Página de Inicio
 - type: heading
   label: Portafolio
