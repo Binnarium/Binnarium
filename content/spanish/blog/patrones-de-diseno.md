@@ -2,7 +2,6 @@
 categories = ["Software"]
 date = 2021-03-01T13:00:00Z
 description = "Descripción breve de los patrones de diseño "
-draft = true
 image = "/images/1.png"
 title = "Patrones de Diseño"
 type = "post"
