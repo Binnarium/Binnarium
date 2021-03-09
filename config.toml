@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://binarium-test.netlify.app"
+baseURL = "https://binnariumedu.com"
 title = "Binarium"
 # post pagination
 paginate = "6"
