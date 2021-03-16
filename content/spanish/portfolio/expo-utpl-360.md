@@ -1,7 +1,6 @@
 +++
 bg_image = "/images/casa-abierta-eventos.jpg"
 description = "Expo UTPL 360"
-draft = true
 image = "/images/casaabierta.png"
 information = []
 title = "Expo UTPL 360"
