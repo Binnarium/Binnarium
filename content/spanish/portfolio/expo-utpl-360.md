@@ -13,3 +13,5 @@ Con el objetivo de promover el acceso a la educación superior y que los jóvene
 ![](/images/ec2ba27f-0201-4729-92b3-431b35d511ec.jpg)
 
 En un entorno dinámico tanto para Web como para Móvil, la Universidad Técnica Particular de Loja (UTPL) expondrá su oferta académica de grado de la Modalidad Presencial, Abierta y a Distancia, proceso de admisión, becas, movilidad estudiantil, proyectos, ecosistema de innovación y emprendimiento, entre otros, a estudiantes, docentes y padres de familia de todo el país en la Casa Abierta ‘Expo UTPL 360’ que se desarrolla desde el lunes, 8 de marzo al viernes 19 de marzo de 2021.
+
+[https://fb.watch/4gWTo1Gv7Y/](https://fb.watch/4gWTo1Gv7Y/ "Casa Abierta Virtual UTPL")
