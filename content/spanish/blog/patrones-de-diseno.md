@@ -469,10 +469,10 @@ Nos acaban de contratar para trabajar en Subway, el menú de esta semana es Sán
 
 Pero espera un momento esto es un Subway, y el cliente puede modificar su sándwich, oh no! y ahora quien podrá ayudarnos. La primera idea que se te puede pasar por la cabeza es modificar la clase Sandwich y agregar métodos y atributos para poder colocarle: huevos, tomate, queso, tocino o lechuga, bien problema resulto, espera un momento esto trae otra serie de problemas como:
 
-> * Por cada ingrediente debemos agregar otra propiedad y nuevos métodos
-> * Modificar el método get price por cada ingrediente, el exceso de ingredientes no es gratis sabes no podemos regalar hojas de lechuga
-> * Y si alguien quiere 3 lonchas de queso???
-> * Ni hablar del principio de abierto cerrado
+> * - Por cada ingrediente debemos agregar otra propiedad y nuevos métodos
+> * - Modificar el método get price por cada ingrediente, el exceso de ingredientes no es gratis sabes no podemos regalar hojas de lechuga
+> * - Y si alguien quiere 3 lonchas de queso???
+> * - Ni hablar del principio de abierto cerrado
 
 Antes de empezar a llorar recordemos que tenemos patrones de diseño, en este caso usaremos el Decorator. Para que una subclase cumpla como decorador, esta debe tener el mismo supertipo que el objeto al que van a decorar, esto quiere decir que extienden de la clase principal; ahora para cumplir con los principios de SOLID vamos a generar un super decorador, quien es el que va a extender de la clase principal, algo así:
 
@@ -739,10 +739,10 @@ La clase Fighter ahora delegará su comportamiento de patadas y saltos en lugar 
 
 Si te has quedado hasta aquí y quieres saber más tengo para ti una serie de videos que puedes revisar:
 
-* [👨‍💻 Patrones de Diseño | Resumen en 9 Minutos (más o menos)](https://youtu.be/pG_qsHnX0Ok)
-* [Patrones de Diseño - BettaTech](https://www.youtube.com/watch?v=3qTmBcxGlWk&list=PLJkcleqxxobUJlz1Cm8WYd-F_kckkDvc8)
-* [Introducción a los patrones de diseño - Vida MRR](https://youtu.be/1QUhp7QIWv0)
+* - [👨‍💻 Patrones de Diseño | Resumen en 9 Minutos (más o menos)](https://youtu.be/pG_qsHnX0Ok)
+* - [Patrones de Diseño - BettaTech](https://www.youtube.com/watch?v=3qTmBcxGlWk&list=PLJkcleqxxobUJlz1Cm8WYd-F_kckkDvc8)
+* - [Introducción a los patrones de diseño - Vida MRR](https://youtu.be/1QUhp7QIWv0)
 
 Por ultimó te dejo el enlace a mi repositorio en Github para que puedas ver con mayor detenimiento y a todo color el uso de estos patrones.
 
-* [Design Pattern](https://github.com/jonarosero/DesignPattern)
+* - [Design Pattern](https://github.com/jonarosero/DesignPattern)
