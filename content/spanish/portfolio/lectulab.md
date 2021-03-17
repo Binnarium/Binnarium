@@ -4,17 +4,17 @@ description = "LectuLab es una aplicación web que ayuda a niños desde 4 años 
 image = "/images/lectulab-1.png"
 title = "LectuLab"
 [[information]]
-icon = ""
-name = "Categoría"
-value = "Ambientes de Aprendizaje"
+icon = "ti-calendar"
+name = "Fecha"
+value = "15 de marzo de 2021"
 [[information]]
-icon = ""
+icon = "ti-user"
 name = "Cliente"
 value = "Vicerrectorado de Investigación UTPL"
 [[information]]
-icon = ""
-name = "Fecha"
-value = "15 de marzo de 2021"
+icon = "ti-folder"
+name = "Categoría"
+value = "Ambientes de Aprendizaje"
 
 +++
 > [**_LectuLab_**](https://lecturlab-jmzwm.ondigitalocean.app/juegos)**_: Aprediendo a leer, una experiencia de aprendizaje a través del laboratorio virtual_**
