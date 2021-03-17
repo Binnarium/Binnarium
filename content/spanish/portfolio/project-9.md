@@ -1,19 +1,22 @@
 ---
-title: Transformación Digital
+title: Diseño e implementación de un ecosistema de negocio para el Proyecto Ascendere
+  mediante la construcción de una plataforma digital
 image: "/images/digital-transfomation.png"
 project_url: https://themefisher.com/
 category: 
-description: This is meta description.
+description: Un ecosistema digital es un sistema abierto, adaptado y distribuido con
+  propiedades de escalabilidad y sostenibilidad.
 information:
-    - name: Fecha
-      value: 27 de agosto, 2020
-      icon: ti-calendar
-    - name: Cliente
-      value: Ascendere
-      icon: ti-user
-    - name: Categoría
-      value: Asesoría y Capacitación
-      icon: ti-folder
+- name: Fecha
+  value: 27 de agosto, 2020
+  icon: ti-calendar
+- name: Cliente
+  value: Ascendere
+  icon: ti-user
+- name: Categoría
+  value: Asesoría y Capacitación
+  icon: ti-folder
+
 ---
 #### Descripción 
 
