@@ -14,9 +14,9 @@ contact:
 - name: Jonathan Rosero
   icon: ti-facebook
   link: https://www.facebook.com/jonathan.rosero.186/
-- name: Clark Malik
+- name: Jonathan Rosero
   icon: ti-twitter-alt
-  link: "#"
+  link: https://twitter.com/jonRosero
 - name: Clark Malik
   icon: ti-skype
   link: "#"
