@@ -5,6 +5,10 @@ image = "/images/lectulab-1.png"
 title = "LectuLab"
 [[information]]
 icon = ""
+name = "Cliente"
+value = "Vicerrectorado de Investigación UTPL"
+[[information]]
+icon = ""
 name = "Fecha"
 value = "15 de marzo de 2021"
 
