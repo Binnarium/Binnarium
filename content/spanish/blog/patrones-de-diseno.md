@@ -80,17 +80,17 @@ Beneficios
 * Cumple con el principio de responsabilidad única
 * Cumple con el principio de abierto/cerrado
 
-### Desventajas
+#### Desventajas
 
 * El código puede volverse confuso al instanciar muchos tipos de subclases
 
-### Estructura
+#### Estructura
 
 ![](https://upload.wikimedia.org/wikipedia/commons/4/43/W3sDesign_Factory_Method_Design_Pattern_UML.jpg)
 
-Ejemplo
+#### Ejemplo
 
-Lenguaje escogido: Javascript
+##### Lenguaje escogido: Javascript
 
 Volvemos a nuestra tienda de vehículos, en esta ocasión vamos a vender motos y autos y los vamos a dividir de esta manera: Autos
 
