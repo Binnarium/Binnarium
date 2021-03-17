@@ -5,6 +5,10 @@ image = "/images/lectulab-1.png"
 title = "LectuLab"
 [[information]]
 icon = ""
+name = "Categoría"
+value = "Ambientes de Aprendizaje"
+[[information]]
+icon = ""
 name = "Cliente"
 value = "Vicerrectorado de Investigación UTPL"
 [[information]]
