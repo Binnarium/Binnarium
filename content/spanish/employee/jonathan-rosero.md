@@ -20,9 +20,6 @@ contact:
 - name: jonarosero
   icon: ti-github
   link: https://github.com/jonarosero
-- name: clarkmalik.com
-  icon: ti-world
-  link: "#"
 - name: Loja Ecuador, Barrio Consacola
   icon: ti-location-pin
   link: https://www.google.com.ec/maps/place/3%C2%B058'16.0%22S+79%C2%B013'10.4%22W/@-3.9713464,-79.2199924,18.25z/data=!4m9!1m2!10m1!1e2!3m5!1s0x91cb486908ff4ecb:0x0!7e2!8m2!3d-3.971115!4d-79.2195572?hl=es
