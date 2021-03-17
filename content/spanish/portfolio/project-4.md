@@ -1,5 +1,5 @@
 ---
-title: Ascendere Camp I Edición
+title: Ascendere Camp - Edición I
 image: "/images/ascender-camp.jpg"
 project_url: https://themefisher.com/
 description: Bootcamp intensivo para aprender habilidades tanto técnicas como trabajo
