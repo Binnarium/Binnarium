@@ -2,18 +2,20 @@
 title: Feria Virtual de Emprendimiento
 image: "/images/feria-virtual.jpg"
 project_url: https://themefisher.com/
-description: This is meta description.
+description: Exposición virtual de varias empresas en el laboratorio de innovación
+  docente recreado en 3D.
 information:
-    - name: Fecha
-      value: 27 de agosto, 2020
-      icon: ti-calendar
-    - name: Cliente
-      value: UTPL
-      icon: ti-user
-    - name: Categoría
-      value: Ambientes de Aprendizaje
-      icon: ti-folder
+- name: Fecha
+  value: 27 de agosto, 2020
+  icon: ti-calendar
+- name: Cliente
+  value: UTPL
+  icon: ti-user
+- name: Categoría
+  value: Ambientes de Aprendizaje
+  icon: ti-folder
 weight: 3
+
 ---
 #### Descripción
 
