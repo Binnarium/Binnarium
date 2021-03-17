@@ -16,6 +16,4 @@ information:
   icon: ti-folder
 
 ---
-#### Descripción
-
 Ascendere Camp, es un campamento Intensivo de aprendizaje de habilidades en tecnología, gestión y diseño implementado para los alumnos de la UTPL, con el fin de formar desarrolladores, gestores y creadores de soluciones.
