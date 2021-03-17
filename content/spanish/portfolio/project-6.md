@@ -1,5 +1,5 @@
 ---
-title: UTPL -.Ranked
+title: UTPL - Ranked
 image: "/images/hestia.PNG"
 project_url: https://themefisher.com/
 description: Es una aplicación web para ayudar a los estudiantes a prepararse para
