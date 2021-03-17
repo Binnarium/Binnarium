@@ -11,9 +11,9 @@ contact:
 - name: "+593 987307747"
   icon: ti-mobile
   link: tel:+593987307747
-- name: Clark Malik
+- name: Jonathan Rosero
   icon: ti-facebook
-  link: "#"
+  link: https://www.facebook.com/jonathan.rosero.186/
 - name: Clark Malik
   icon: ti-twitter-alt
   link: "#"
