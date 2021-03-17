@@ -8,9 +8,9 @@ contact:
 - name: jars9605@gmail.com
   icon: ti-email
   link: mailto:jars9605@gmail.com
-- name: "+12 034 5876"
+- name: "+593 987307747"
   icon: ti-mobile
-  link: tel:+120345876
+  link: tel:+593987307747
 - name: Clark Malik
   icon: ti-facebook
   link: "#"
