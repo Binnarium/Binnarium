@@ -85,3 +85,164 @@ Beneficios
 * El código puede volverse confuso al instanciar muchos tipos de subclases
 
 ### Estructura
+
+![](https://upload.wikimedia.org/wikipedia/commons/4/43/W3sDesign_Factory_Method_Design_Pattern_UML.jpg)
+
+Ejemplo
+
+Lenguaje escogido: Javascript
+
+Volvemos a nuestra tienda de vehículos, en esta ocasión vamos a vender motos y autos y los vamos a dividir de esta manera: Autos
+
+* Sedan
+* Deportivo
+* Camioneta
+* Clásico Motos
+* Deportiva
+* Motoneta
+* Clásica
+* Cuadrón
+
+Como vimos hemos dividido a los vehículos en 2 familias los autos y las motos, lo que haces es seguir el patrón Factory dentro de cada familia resultando MotoFactory y CarFactory; luego creamos un Factory para crear vehículos de cada familia obteniendo VehicleAbstractFactory.
+
+    ///Vehículos
+    class Vehicle {
+      constructor(type, model) {
+        this._model = model;
+        this._type = type;
+      }
+      get model(){
+        return this._model;
+      }
+      get type(){
+        return this._type;
+      }
+      description(){
+        return `Soy un ${this.type} de clase ${this.model}`
+      } 
+    }
+    
+    export default Vehicle;
+
+    ///Auto
+    import Vehicle from "./Vehicle";
+    
+    class CarType1 extends Vehicle {
+      constructor() {
+        super("auto", "sedan");
+      }
+    }
+    
+    class CarType2 extends Vehicle {
+      constructor() {
+        super("auto", "deportivo");
+      }
+    }
+    
+    class CarType3 extends Vehicle {
+      constructor() {
+        super("auto", "camioneta");
+      }
+    }
+    
+    class CarType4 extends Vehicle {
+      constructor() {
+        super("auto", "clasico");
+      }
+    }
+    
+    export { CarType1, CarType2, CarType3, CarType4 };
+
+    ///Motos
+    import Vehicle from "./Vehicle";
+    
+    class MotoType1 extends Vehicle {
+      constructor() {
+        super("moto", "deportiva");
+      }
+    }
+    
+    class MotoType2 extends Vehicle {
+      constructor() {
+        super("moto", "motoneta");
+      }
+    }
+    
+    class MotoType3 extends Vehicle {
+      constructor() {
+        super("moto", "clasica");
+      }
+    }
+    
+    class MotoType4 extends Vehicle {
+      constructor() {
+        super("moto", "cuadron");
+      }
+    }
+    
+    export { MotoType1, MotoType2, MotoType3, MotoType4 };
+
+    ///Factory para autos
+    import { CarType1, CarType2, CarType3, CarType4 } from "./Car";
+    
+    class CarFactory {
+      create(model) {
+        switch (model) {
+          case "sedan":
+            return new CarType1();
+          case "deportivo":
+            return new CarType2();
+          case "camioneta":
+            return new CarType3();
+          case "clasico":
+            return new CarType4();
+          default:
+            console.log("Modelo no encontrado ", model);
+            break;
+        }
+      }
+    }
+    
+    export default CarFactory;
+
+    ///Factory para motos
+    import { MotoType1, MotoType2, MotoType3, MotoType4 } from "./Moto";
+    
+    class MotoFactory {
+      create(model) {
+        switch (model) {
+          case "deportiva":
+            return new MotoType1();
+          case "motoneta":
+            return new MotoType2();
+          case "clasica":
+            return new MotoType3();
+          case "cuadron":
+            return new MotoType4();
+          default:
+            console.log("Modelo no encontrado ", model);
+            break;
+        }
+      }
+    }
+    
+    export default MotorcycleFactory;
+
+    ///Factory para todas las familias de vehículos
+    import CarFactory from "./CarFactory";
+    import MotoFactory from "./MotoFactory";
+    
+    class VehicleAbstractFactory {
+      createType(type) {
+        if (type === "auto") {
+          return new CarFactory();
+        } else if (type === "moto") {
+          return new MotoFactory();
+        } else {
+          console.log("Error type");
+        }
+      }
+    }
+    
+    export default VehicleAbstractFactory;
+    
