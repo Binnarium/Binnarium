@@ -17,9 +17,9 @@ contact:
 - name: Jonathan Rosero
   icon: ti-twitter-alt
   link: https://twitter.com/jonRosero
-- name: Clark Malik
-  icon: ti-skype
-  link: "#"
+- name: jona
+  icon: ti-github
+  link: https://github.com/jonarosero
 - name: clarkmalik.com
   icon: ti-world
   link: "#"
