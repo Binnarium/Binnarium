@@ -4,6 +4,10 @@ description = "Expo UTPL 360 Casa abierta virtual de la UTPL 2021 y primera Casa
 image = "/images/casaabierta.png"
 title = "Expo UTPL 360"
 [[information]]
+icon = "ti-calendar"
+name = "Fecha"
+value = "22 de febrero de 2021"
+[[information]]
 icon = "ti-user"
 name = "Cliente"
 value = "UTPL"
