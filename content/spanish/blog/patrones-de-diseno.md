@@ -740,10 +740,10 @@ La clase Fighter ahora delegará su comportamiento de patadas y saltos en lugar 
 
 Si te has quedado hasta aquí y quieres saber más tengo para ti una serie de videos que puedes revisar:
 
-* - [👨‍💻 Patrones de Diseño | Resumen en 9 Minutos (más o menos)](https://youtu.be/pG_qsHnX0Ok)
-* - [Patrones de Diseño - BettaTech](https://www.youtube.com/watch?v=3qTmBcxGlWk&list=PLJkcleqxxobUJlz1Cm8WYd-F_kckkDvc8)
-* - [Introducción a los patrones de diseño - Vida MRR](https://youtu.be/1QUhp7QIWv0)
+> * [**👨‍💻 Patrones de Diseño | Resumen en 9 Minutos (más o menos)**](https://youtu.be/pG_qsHnX0Ok)
+> * [**Patrones de Diseño - BettaTech**](https://www.youtube.com/watch?v=3qTmBcxGlWk&list=PLJkcleqxxobUJlz1Cm8WYd-F_kckkDvc8)
+> * [**Introducción a los patrones de diseño - Vida MRR**](https://youtu.be/1QUhp7QIWv0)
 
 Por ultimó te dejo el enlace a mi repositorio en Github para que puedas ver con mayor detenimiento y a todo color el uso de estos patrones.
 
-* - [Design Pattern](https://github.com/jonarosero/DesignPattern)
+> * [**Design Pattern**](https://github.com/jonarosero/DesignPattern)
