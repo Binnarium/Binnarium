@@ -368,3 +368,371 @@ Como vimos hemos dividido a los vehículos en 2 familias los autos y las motos, 
     
     export default VehicleAbstractFactory;
     
+
+## Patrones Estructurales
+
+Los patrones de diseño estructurales se refieren a la composición de clases y objetos, nos ayuda a simplificar la relación entre objetos, estos patrones nos ayudan a que si hay cambios, sean mínimos y no afecten a toda la aplicación; esto quiere decir que podemos agregar nueva funcionalidad o actualizar sin modificar nuestra aplicación completa.
+
+### Decorator
+
+#### Nivel de aplicación
+
+Objetos
+
+#### Definición
+
+El patrón Decorator responde a la necesidad de añadir dinámicamente funcionalidad a un Objeto. Esto nos permite no tener que crear sucesivas clases que hereden de la primera incorporando la nueva funcionalidad, sino otras que la implementan y se asocian a la primera.
+
+#### Cuando utilizarlo
+
+Cuando se necesite agregar comportamientos adicionales a los objetos en tiempo de ejecución sin romper el código, y no sea posible extender el comportamiento de un objeto usando la herencia.
+
+#### Beneficios
+
+* Extender comportamientos sin crear nuevas subclases
+* Agregar o quitar comportamientos durante la ejecucción
+* Se puede usar múltiples decoradores para envolver un objeto
+
+#### Desventajas
+
+* Cuando la interfaz de componentes es compleja hace más difícil obtener un decorador correcto.
+* El desempeño decae si existen demasiados decoradores
+* Los decoradores pueden complicar el proceso de creación de instancia de objeto, ya que no solo tienen que crear una instancia del componente, si no que también envolverlo en varios decoradores
+
+#### Estructura
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Decorator_UML_class_diagram.svg/758px-Decorator_UML_class_diagram.svg.png)
+
+#### Ejemplo
+
+##### Lenguaje escogido: Javascript
+
+Nos acaban de contratar para trabajar en Subway, el menú de esta semana es Sándwich de Queso, Sándwich de Pollo y Sándwich de Jamón. Obviamente cada sándwich tiene un precio distinto. Con esto podemos crear una clase Sandwich y las subclases CheeseSubway, ChickenSubway, HamSubway y entre sus métodos estaría la descripción del precio dependiendo del tipo de sándwich.
+
+    ///Sándwich
+    class Sandwich {
+      constructor() {
+        this._drescription = "Sándwich desconocido";
+        this._price = 0;
+      }
+      set price(price) {
+        this._price = price;
+      }
+      get price() {
+        return this._price;
+      }
+      get drescription() {
+        return this._drescription;
+      }
+      getSandwich() {
+        return `Su orden es un Sándwich de : ${this.description} el precio total es: ${this.price}`;
+      }
+    }
+    
+    export default Sandwich;
+    ///Sándwich de Queso
+    
+    import Sandwich from "./Sandwich";
+    class CheeseSubway extends Sandwich {
+      constructor(){
+        super();
+        this.description = 'CheeseSubway';
+        this.price = 3;
+      }
+    }
+    
+    export default CheeseSubway;
+    ///Sándwich de pollo
+    
+    import ChickenSubway from "./ChickenSubway ";
+    class ChickenSubway extends Sandwich {
+      constructor(){
+        super();
+        this.description = 'ChickenSubway';
+        this.price = 5;
+      }
+    }
+    
+    export default ChickenSubway;
+    ///Sándwich de Jamón
+    
+    import Sandwich from "./Sandwich";
+    class HamSubway extends HamSubway {
+      constructor(){
+        super();
+        this.description = 'HamSubway ';
+        this.price = 4;
+      }
+    }
+    
+    export default HamSubway ;
+
+Pero espera un momento esto es un Subway, y el cliente puede modificar su sándwich, oh no! y ahora quien podrá ayudarnos. La primera idea que se te puede pasar por la cabeza es modificar la clase Sandwich y agregar métodos y atributos para poder colocarle: huevos, tomate, queso, tocino o lechuga, bien problema resulto, espera un momento esto trae otra serie de problemas como:
+
+> * Por cada ingrediente debemos agregar otra propiedad y nuevos métodos
+> * Modificar el método get price por cada ingrediente, el exceso de ingredientes no es gratis sabes no podemos regalar hojas de lechuga
+> * Y si alguien quiere 3 lonchas de queso???
+> * Ni hablar del principio de abierto cerrado
+
+Antes de empezar a llorar recordemos que tenemos patrones de diseño, en este caso usaremos el Decorator. Para que una subclase cumpla como decorador, esta debe tener el mismo supertipo que el objeto al que van a decorar, esto quiere decir que extienden de la clase principal; ahora para cumplir con los principios de SOLID vamos a generar un super decorador, quien es el que va a extender de la clase principal, algo así:
+
+    ///Super decorador de Sándwich
+    
+    import Sandwich  from "./Sandwich";
+    
+    class SandwichDecorator extends Sandwich {
+      constructor(sandwich) {
+        super();
+        this.sandwich = sandwich;
+      }
+    }
+    
+    export default SandwichDecorator;
+    ///Super decorador de Sándwich
+    
+    import SandwichDecorator from "./SandwichDecorator";
+    
+    class BaconDecorator extends SandwichDecorator {
+      constructor(sandwich) {
+        super(sandwich);
+      }
+      get description() {
+        return this.sandwich.description + " con tócino";
+      }
+      get price() {
+        return this.sandwich.price + 9;
+      }
+    }
+    
+    class HamDecorator extends SandwichDecorator {
+      get description() {
+        return this.sandwich.description + " con jamón";
+      }
+      get price() {
+        return this.sandwich.price + 15;
+      }
+    }
+    
+    class MeatDecorator extends SandwichDecorator {
+      constructor(sandwich) {
+        super(sandwich);
+      }
+      get description() {
+        return this.sandwich.description + " con carne";
+      }
+      get price() {
+        return this.burger.price + 20;
+      }
+    }
+    
+    class EggDecorator extends SandwichDecorator {
+      constructor(sandwich) {
+        super(sandwich);
+      }
+      get description() {
+        return this.sandwich.description + " con huevo";
+      }
+      get price() {
+        return this.sandwich.price + 12;
+      }
+    }
+    
+    class PickleDecorator extends SandwichDecorator {
+      constructor(sandwich) {
+        super(sandwich);
+      }
+      get description() {
+        return this.sandwich.description + " con pepinillos";
+      }
+      get price() {
+        return this.sandwich.price + 5;
+      }
+    }
+    
+    class CheeseDecorator extends SandwichDecorator {
+      constructor(sandwich) {
+        super(sandwich);
+      }
+      get description() {
+        return this.sandwich.description + " con queso";
+      }
+      get price() {
+        return this.sandwich.price + 9;
+      }
+    }
+    
+    export {
+      CheeseDecorator,
+      BaconDecorator,
+      EggDecorator,
+      HamDecorator,
+      MeatDecorator,
+      PickleDecorator
+    };
+
+## Patrones de comportamiento
+
+Los patrones de diseño de comportamiento mejoran la comunicación y responsabilidad entre objetos, nos ayudan a que se tenga toda la información sincronizada.
+
+### Strategy
+
+#### Nivel de aplicación
+
+Objeto
+
+#### Definición
+
+Strategy es un patrón de diseño de comportamiento que te permite definir una familia de algoritmos, colocar cada uno de ellos en una clase separada y hacer sus objetos intercambiables.
+
+#### Cuando utilizarlo
+
+Cuando ser quiera utilizar distintas variantes de un algoritmo dentro de un objeto y poder cambiar de un algoritmo a otro durante el tiempo de ejecución. O cuando tengas muchas clases similares que sólo se diferencien en la forma en que ejecutan cierto comportamiento.
+
+#### Beneficios
+
+* Intercambiar algoritmos usados dentro de un objeto durante el tiempo de ejecución
+* Aislar los detalles de implementación de un algoritmo del código que lo utiliza
+* Sustituyes la herencia por composición
+
+#### Desventajas
+
+* Los clientes deben conocer las diferencias entre estrategias para poder seleccionar la adecuada
+* Si sólo tienes un par de algoritmos que raramente cambian, no hay una razón real para complicar el programa en exceso con nuevas clases e interfaces que vengan con el patrón
+
+#### Estructura
+
+#### ![](http://codigolinea.com/wp-content/uploads/2015/03/strategy-uml.png)  
+Ejemplo
+
+##### Lenguaje escogido: Dart
+
+Bienvenido al año 1987 Capcom ha lanzado un juego llamado Street Fighter les ha ido medianamente bien así que quieren sacar la secuela. En esta nueva versión el personaje puede tener cuatro movimientos: patear, golpear, esquivar y saltar. Todos los personajes tienen los movimientos de esquivar y golpear pero patear y saltar son opcionales. Tu como viajero en el tiempo que ya sabe sobre programación orientada a objetos y patrones de diseño has sido contratado para programar el comportamiento de los personajes. El primer instinto es crear la clase Fighter y que el resto de personajes hereden de Fighter.
+
+¿Mmm, pero qué pasa si un personaje no realiza un movimiento de salto? Todavía hereda el comportamiento de salto de la superclase. Aunque puede anular el salto para no hacer nada en ese caso. Pero es posible que tenga que hacerlo para muchas clases existentes y ocuparse de eso también para las clases futuras. Esto también dificultaría el mantenimiento. Entonces no podemos usar la herencia aquí.
+
+Por suerte eres todo un pro de los patrones de diseño vienes del siglo XXI cuando ya se han resuelto muchos de estos problemas, así que puedes aplicar el patrón de Strategy. Lo primero es identificar los comportamientos que puedan variar entre diferentes clases en el futuro y separarlos. En nuestro caso saltar y patear tendremos que sacarlos de Fighter y crear un nuevo conjunto de clases para representar cada comportamiento.
+
+La clase Fighter ahora delegará su comportamiento de patadas y saltos en lugar de utilizar los métodos de patadas y saltos definidos en la clase Fighter o su subclases.
+
+    ///Peleador Génerico
+    abstract class Fighter {
+      KickBehavior kickBehavior;
+      JumpBehavior jumpBehavior;
+    
+      Fighter(this.kickBehavior, this.jumpBehavior);
+    
+      setKickStrategy(KickBehavior kickBehavior){
+        this.kickBehavior = kickBehavior;
+      }
+      
+      setJumpStrategy(JumpBehavior jumpBehavior){
+        this.jumpBehavior = jumpBehavior;
+      }
+    
+      void kick() {
+        kickBehavior.kick();
+      }
+    
+      void jump() {
+        jumpBehavior.jump();
+      }
+    
+      void display();
+    
+      void dodge() {
+        print("Esquiva");
+      }
+    
+      void punch() {
+        print("Golpea");
+      }
+    }
+    ///Comportamiento de patada
+    
+    abstract class KickBehavior {
+       void kick();
+    }
+    
+    class LightningKick implements KickBehavior {
+        @override
+        void kick() {
+            print ("Hadouken")
+        }
+    }
+    
+    class TornadoKick implements KickBehavior {
+        @override
+        void kick(){
+            print ("Tatsumaki Senpuu Kyaku")
+        }
+    }
+    ///Comportamiento del salto
+    
+    abstract class JumpBehavior{
+       void kick();
+    }
+    
+    class OneJump implements JumpBehavior{
+        @override
+        void jump() {
+            print ("Shoryuken")
+        }
+    }
+    
+    class DoubleJump implements JumpBehavior{
+        @override
+        void jump(){
+            print ("Shinkuu Hadouken")
+        }
+    }
+    ///Luchador Ryu
+    
+    class Ryu extends Fighter {
+       Ryu (KickBehavior kickBehavior, JumpBehavior jumpBehavior) : 
+          super(kickBehavior, jumpBehavior);
+    
+       @override
+       void display(){
+          print("¡Debes vencer a mi Puño del Dragón para tener una oportunidad!")
+       }
+    
+       @override
+       void dodge(){}
+    }
+    ///Luchador Ken
+    
+    class ken extends Fighter {
+       Ken (KickBehavior kickBehavior, JumpBehavior jumpBehavior) : 
+          super(kickBehavior, jumpBehavior);
+    
+       @override
+       void display(){
+          print("¡Atácame si te atreves, te aplastaré!")
+       }
+    
+       @override
+       void dodge(){}
+    }
+    ///Implementar
+    
+    main(){
+    
+       JumpBehavior oneJump = OneJump();
+       JumpBehavior dobleJump = DobleJump();
+       KickBehavior lightningKick = LightningKick();
+       KickBehavior tornadoKick = TornadoKick();
+    
+       Fighter ryu = Ryu(tornadoKick, oneJump);
+       ryu.display();
+    
+       ryu.punch();
+       ryu.kick();
+       ryu.jump();
+    
+       ryu.setJumpStrategy(DobleJump);
+       ryu.setKickStrategy(lightningKick);
+       
+       ryu.dodge();
+       ryu.kick();
+       ryu.jump();
+    }
