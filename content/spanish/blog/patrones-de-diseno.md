@@ -389,15 +389,15 @@ Cuando se necesite agregar comportamientos adicionales a los objetos en tiempo d
 
 #### Beneficios
 
-* Extender comportamientos sin crear nuevas subclases
-* Agregar o quitar comportamientos durante la ejecucción
-* Se puede usar múltiples decoradores para envolver un objeto
+* - Extender comportamientos sin crear nuevas subclases
+* - Agregar o quitar comportamientos durante la ejecucción
+* - Se puede usar múltiples decoradores para envolver un objeto
 
 #### Desventajas
 
-* Cuando la interfaz de componentes es compleja hace más difícil obtener un decorador correcto.
-* El desempeño decae si existen demasiados decoradores
-* Los decoradores pueden complicar el proceso de creación de instancia de objeto, ya que no solo tienen que crear una instancia del componente, si no que también envolverlo en varios decoradores
+* - Cuando la interfaz de componentes es compleja hace más difícil obtener un decorador correcto.
+* - El desempeño decae si existen demasiados decoradores
+* - Los decoradores pueden complicar el proceso de creación de instancia de objeto, ya que no solo tienen que crear una instancia del componente, si no que también envolverlo en varios decoradores
 
 #### Estructura
 
