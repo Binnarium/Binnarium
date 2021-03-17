@@ -92,12 +92,134 @@ Beneficios
 
 ##### Lenguaje escogido: Javascript
 
-Volvemos a nuestra tienda de vehículos, en esta ocasión vamos a vender motos y autos y los vamos a dividir de esta manera: Autos
+En este ejemplo seremos dueños de una tienda de vehículos de todo tipo, en nuestro inventario tenemos por ahora:
+
+* Bicicleta -> 2 ruedas, manual
+* Motocicletas -> 2 ruedas, combustión
+* Autos -> 4 ruedas, combustión
+* Auto eléctrico -> 4 ruedas, eléctrico
+
+Como todos son vehículos creamos una clase Vehicle de la que hereden las demás subclases:
+
+    //Vehicle
+    class Vehicle {
+     constructor (wheeler, type, motor){
+       this._wheeler = wheeler;
+       this._type = type;
+       this._motor = motor;
+     }
+     get wheeler(){
+       return this._wheeler;
+     }
+     get type(){
+      return this._type; 
+     }
+     get motor(){
+      return this._motor; 
+     }
+     description(){
+       return `Tengo ${this.wheeler} ruedas, un motor de tipo ${this.motor} y soy un ${this.type}`;
+     }
+    }
+    //Bike
+    class Bike extends Vehicle{
+      constructor() {
+        super(2, 'Bicicleta', 'manual');
+      }
+    }
+    
+    //Motorcycle
+    class Motorcycle extends Vehicle{
+      constructor() {
+        super(2, 'Motocicleta', 'combustion');
+      }
+    }
+    
+    //Car
+    class Car extends Vehicle{
+      constructor() {
+        super(4, 'Auto', 'combustion');
+      }
+    }
+    
+    //Electric Car
+    class ElectricCar extends Vehicle{
+      constructor() {
+        super(6, 'Auto eléctrico', 'electric');
+      }
+    }
+    
+    import { Bike, Motorcycle, Car, ElectricCar}
+
+Ahora crearemos la clases que nos permita instanciar cada vehículo, dependiendo de los parámetros enviados.
+
+    import { Bike, Motorcycle, Car, ElectricCar } from "./Vehicle";
+    
+    class VehicleFactory {
+      createVehicle(wheeler, motor){
+        if(wheeler === 2 && motor === 'manual') {
+          return new Bike();
+        }
+        
+        if(wheeler === 2 && motor === 'combustion') {
+          return new Motorcycle();
+        }
+        
+        if(wheeler === 4 && motor === 'combustion') {
+          return new Car();
+        }
+        
+        if(wheeler === 4 && motor === 'electric') {
+          return new ElectricCar();
+        }
+        
+        console.log('Error')
+      }
+    }
+
+### Abstract Factory
+
+#### Nivel de aplicación
+
+Objetos
+
+#### Definición
+
+Este patrón crea diferentes familias de objetos, por lo que podemos considerarlo como un super-factory; dado que implementa uno o varios Factory.
+
+#### Cuando utilizarlo
+
+Se recomienda su uso cuando existen varias familias de objetos, nos podemos dar cuenta por que estaremos creando varios grupos del patrón Factory.
+
+#### Beneficios
+
+* Cumple con el principio de responsabilidad única
+* Se pueden desarrollar interfaces más pequeñas o segmentadas.
+* Se cumple el principio abierto/cerrado
+
+#### Desventajas
+
+* El mantenimiento del código puede volverse muy complicado ya que se introducen muchas nuevas interfaces y clases junto con el patrón.
+
+#### Estructura
+
+![](https://44r0n.github.io/images/AbstractFactoryPattern.png)
+
+#### Ejemplo
+
+##### Lenguaje escogido: Javascript
+
+Volvemos a nuestra tienda de vehículos, en esta ocasión vamos a vender motos y autos y los vamos a dividir de esta manera: 
+
+Autos
 
 * Sedan
 * Deportivo
 * Camioneta
-* Clásico Motos
+* Clásico
+
+Motos
+
 * Deportiva
 * Motoneta
 * Clásica
