@@ -601,8 +601,9 @@ Cuando ser quiera utilizar distintas variantes de un algoritmo dentro de un obje
 
 #### Estructura
 
-#### ![](http://codigolinea.com/wp-content/uploads/2015/03/strategy-uml.png)  
-Ejemplo
+![](https://www.dofactory.com/img/diagrams/net/strategy.gif)
+
+#### Ejemplo
 
 ##### Lenguaje escogido: Dart
 
