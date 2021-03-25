@@ -38,4 +38,4 @@ Ya se que que te estarás preguntando ¿Qué es el [**Kishōtenketsu**](https://
 
 > Kishōtenketsu (起承転結) describe la estructura y desarrollo de narrativas chinas y japonesas. Originalmente era usado en la poesía china como composición de cuatro líneas, es también conocido como 'kishōtengō' (起承転合). El primer carácter chino se refiere a la introducción o 'kiku' (起句?), le sigue: el desarrollo, 'shōku' (承句), el tercero: el giro, 'tenku' (転句), y el último carácter indica la conclusión o 'kekku' (結句). 句 la frase (句, ku), y 合 (ír) significa "punto de encuentro de 起 y 転" para la conclusión.
 
-Ahora en español
+Ahora en español 
