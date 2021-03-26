@@ -166,8 +166,8 @@ Muchas Gracias por haber leído este blog un poco extenso, te dejaré unos links
 
 **Videos Relacionados**
 
-> * El Kishōtenketsu en el diseño de niveles
-> * Kishotenketsu, una forma de narrar - De Ozu a Miyazaki
-> * Cómo Crear Niveles como Nintendo - Super Mario Maker 2 | PLANO DE JUEGO
+> * [El Kishōtenketsu en el diseño de niveles](https://www.youtube.com/watch?v=hbwRZHDhLdA)
+> * [Kishotenketsu, una forma de narrar - De Ozu a Miyazaki](https://www.youtube.com/watch?v=8Onb1zjDTHs&t=632s)
+> * [Cómo Crear Niveles como Nintendo - Super Mario Maker 2 | PLANO DE JUEGO](https://www.youtube.com/watch?v=8HWO4iT5yxQ&t=23s)
 > * [La narrativa del videojuego \[Opinión\] - Post Script](https://www.youtube.com/watch?v=9JQgLwoRM-M)
 > * [Super Metroid y el Valor de las Introducciones | PLANO DE JUEGO](https://www.youtube.com/watch?v=z0ev03doJyI)
