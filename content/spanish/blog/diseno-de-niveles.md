@@ -139,3 +139,17 @@ Esta sección nos servirá para apretar botones libremente y aprender los contro
 ### Ten
 
 ![](https://eightandahalfbit.files.wordpress.com/2015/01/super-metroid-2.png)
+
+Haciendo el recorrido del laboratorio llegamos hasta la sala central que aparece en el título, pero si te fijas bien el Metroid que estaba allí ya no está, ¿escapo? ¿lo raptarón?. Hasta este punto no ha habido un solo enemigo, ya sabes que algo horrible ha pasado y tu imaginación llenará todos los espacios restantes. Para saber que paso con el bebe Metroid toca seguir adelante.}
+
+![](https://thebokoblin.com/wp-content/uploads/2019/09/images_jmaison_Video_Games_Metroid_super-metroid-is-awesome-stop-reading-my-image-file-names-dude-1280x720.png)
+
+En la siguiente sala te encuentras con el bebe Metroid, parece estar bien, la música se detiene y tienes un momento de relax. Pero claro el bebe no estaba solo con el se encuentra Ridley (el jefe de los piratas espaciales). 
+
+![](https://64.media.tumblr.com/0eced30168f6b26a53855d28ef543ea0/tumblr_mzlkh4d30l1qd4q8ao1_500.gif)
+
+Toca una pelea, la primera del juego, apenas sabes moverte y de seguro aprendiste a medio disparar. Pero en esta primer encuentro Ridley no tiene barra de vida y tu si. En este momento probablemente como jugador sientas desesperanza por que te están bajando vida, solo tienes un contador de seguro aún estas novato con los controles, no sabes si le estas bajando vida. No te desesperes aún por que no te va a matar, si tu contador de vida llega a 33 o menos Ridley se va por que no vales el tiempo necesario para terminar de matarte.
+
+### Ketsu
+
+Estas con poca vida pero Ridley se fue, se llevo el Metroid bebe pero luego podrás recuperarlo. Crees que tienes un alivio, pero (siempre hay un pero) el laboratorio se va a autodestruir (típico de los juegos de Metroid)
