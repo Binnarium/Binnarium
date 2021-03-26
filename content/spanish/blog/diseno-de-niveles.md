@@ -104,6 +104,38 @@ Es la conclusión cuando se sintetiza todo lo que sucede. En Totoro, terminan en
 
 ![](https://tupersonajefavorito.com/wp-content/uploads/2018/06/Mi-vecino-Totoro-feliz.jpg)
 
+Algo a destacar es que el Kishōtenketsu si bien no necesita de un conflicto para desarrollar una historia puede existir uno, y se puede acoplar a la narrativa occidental ya vista.
+
 ## En el diseño de niveles
 
 Todo muy chido y chévere de formas de narrativas pero y eso ¿Qué tiene que ver con el diseño de niveles en videojuegos?, te preguntarás, ya voy no desesperes.
+
+Siendo el Kishōtenketsu una forma de narrativa oriental es de suponer que la mayor compañía de juegos orientales sea quien lo use, obviamente habló de Nintendo.
+
+Al igual que con las películas usare un ejemplo para ilustrar como se logra esto, con el ejemplo del mundo 1-1 puedes darte un poco de cuenta como funciona, pero quiero usar uno de mis juegos favoritos Super Metroid nivel introductorio.
+
+![](https://i.ytimg.com/vi/CsV8w8pcWhg/maxresdefault.jpg)
+
+### Ki
+
+Algo que distingue a Metroid de otros juegos de la época es su capacidad para crear el ambiente, que es algo que se logra con este tipo de narrativa. Empieza con una música lugubre que ya desde el inicio te pone en cotexto, también escuchamos el sonido de la respiración de la protagonista Samus Aran (la primer mujer protagonista de un videojuego), tan solo con sonidos y el titulo de inicio ya empieza a darnos una sensación de soledad. 
+
+El inicio continua con la cara de Samus en primer plano para que veamos a quien vamos a controlar, esto sirve para crear empatía con el jugador.
+
+![](https://cdn.wallpapersafari.com/57/6/yNOVci.jpg)
+
+Lo siguiente que tienes es una recapitulación rápida de juegos pasados para dar más contexto a la historia que se está contando ya que Super Metroid era la continuación de Metroid para la NES y Metroid para la Game Boy.  En esta sección podemos ver como Samus teniendo la orden de destruir a todos los Metroid, decide no acabar con el último ya que era solo una cría. 
+
+Con esto el juego ya nos establece a una protagonista compasiva maternal pero al igual ruda, que se oculta detrás de una armadura que le hace parecer un robot y pierde cualquier rastro de humanidad visible. Que vive aventuras en lugares inhóspitos llenos de criaturas extrañas pero lo hace sola.
+
+### Sho
+
+El nivel por fin nos da a Samus para que la manejemos, nos deja en los viejos laboratorios del primer Metroid, un lugar destrozado sin vida aparente con un sonido de señal de socorro.
+
+![](https://linthuslyth.files.wordpress.com/2013/08/supermetroid_3.png)
+
+Esta sección nos servirá para apretar botones libremente y aprender los controles sin ningún problema. También al movernos por todo el laboratorio vamos a comprender como funcionan las puertas (una de las mecánicas más usadas en Metroid)
+
+### Ten
+
+![](https://eightandahalfbit.files.wordpress.com/2015/01/super-metroid-2.png)
