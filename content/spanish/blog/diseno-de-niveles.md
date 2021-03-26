@@ -152,4 +152,22 @@ Toca una pelea, la primera del juego, apenas sabes moverte y de seguro aprendist
 
 ### Ketsu
 
-Estas con poca vida pero Ridley se fue, se llevo el Metroid bebe pero luego podrás recuperarlo. Crees que tienes un alivio, pero (siempre hay un pero) el laboratorio se va a autodestruir (típico de los juegos de Metroid)
+Estas con poca vida pero Ridley se fue, se llevo el Metroid bebe pero luego podrás recuperarlo. Crees que tienes un alivio, pero (siempre hay un pero) el laboratorio se va a autodestruir (típico de los juegos de Metroid). Todo el escenario cambia para darte sensación de premisa.
+
+![](https://metroid.retropixel.net/games/metroid3/review_01.gif)
+
+Algo que distingue a los videojuegos son sus jefes finales, lo que hay ya en la ultima parte del nivel un último esfuerzo que debes hacer. Los jefes finales son como una prueba una evaluación de las habilidades adquiridas, en el nivel introductorio de Super Metroid, el jefe final no es Ridley si no el contador de autodestrucción del laboratorio, ya que si quieres salir con vida deberás de fallar la menor cantidad de saltos posibles, sobre todo en la última sección donde el mapa empieza a girar. Demostrando así que estas listo para seguir jugando. Otra cosa es que para salir solo hay un sitio que es por el lugar por que llegaste, así también te enseña que durante el juego muchas veces tendrás que regresarte por los lugares que ya habías pasado para encontrar nuevas sorpresas.
+
+A partir de este punto ya sabes como pelear, como moverte, te sientes identificado con el personaje principal. Ya tienes una noción de como será el resto del juego y hasta te sientes identificado con la misión de rescate del bebe Metroid (si es que no eres una persona desalmada)
+
+Con esto terminamos la introducción al diseño de niveles hay más métodos y formas de diseñar niveles para videojuegos. Incluso estos mismos conceptos los puedes usar para la gamificación en el aula de clases o en el trabajo, o para escribir una historia. El uso que le des dependerá de tu imaginación.
+
+Muchas Gracias por haber leído este blog un poco extenso, te dejaré unos links a videos que te pueden servir si quieres aprender más del tema.
+
+**Videos Relacionados**
+
+> * El Kishōtenketsu en el diseño de niveles
+> * Kishotenketsu, una forma de narrar - De Ozu a Miyazaki
+> * Cómo Crear Niveles como Nintendo - Super Mario Maker 2 | PLANO DE JUEGO
+> * [La narrativa del videojuego \[Opinión\] - Post Script](https://www.youtube.com/watch?v=9JQgLwoRM-M)
+> * [Super Metroid y el Valor de las Introducciones | PLANO DE JUEGO](https://www.youtube.com/watch?v=z0ev03doJyI)
