@@ -157,7 +157,7 @@ Estas con poca vida pero Ridley se fue, se llevo el Metroid bebe pero luego podr
 
 Algo que distingue a los videojuegos son sus jefes finales, lo que hay ya en la ultima parte del nivel un último esfuerzo que debes hacer. Los jefes finales son como una prueba una evaluación de las habilidades adquiridas, en el nivel introductorio de Super Metroid, el jefe final no es Ridley si no el contador de autodestrucción del laboratorio, ya que si quieres salir con vida deberás de fallar la menor cantidad de saltos posibles, sobre todo en la última sección donde el mapa empieza a girar. Demostrando así que estas listo para seguir jugando. Otra cosa es que para salir solo hay un sitio que es por el lugar por que llegaste, así también te enseña que durante el juego muchas veces tendrás que regresarte por los lugares que ya habías pasado para encontrar nuevas sorpresas.
 
-A partir de este punto ya sabes como pelear, como moverte, te sientes identificado con el personaje principal. Ya tienes una noción de como será el resto del juego y hasta te sientes identificado con la misión de rescate del bebe Metroid (si es que no eres una persona desalmada)
+A partir de este punto ya sabes como pelear, como moverte, te sientes identificado con el personaje principal. Ya tienes una noción de como será el resto del juego y hasta te sientes identificado con la misión de rescate del bebe Metroid (si es que no eres una persona desalmada).
 
 Con esto terminamos la introducción al diseño de niveles hay más métodos y formas de diseñar niveles para videojuegos. Incluso estos mismos conceptos los puedes usar para la gamificación en el aula de clases o en el trabajo, o para escribir una historia. El uso que le des dependerá de tu imaginación.
 
@@ -178,7 +178,7 @@ Muchas Gracias por haber leído este blog un poco extenso, te dejaré unos links
 > * [Kishōtenketsu – Creando historias sin conflicto](https://guiondevideojuegos.com/guion/escribir/kishotenketsu-creando-historias-sin-conflicto/)
 > * [Diseñar un nivel para un Videojuego](https://www.gametopia.es/learning/article/06/2018/41/disenar-nivel-para-videojuego)
 
-**Por si quieres ambientarte mientras vulves a leer la última parte te dejo una playlist con la música usada en Super Metroid**
+**Por si quieres ambientarte mientras vuelves a leer la última parte te dejo una playlist con la música usada en Super Metroid**
 
 > * [El Soudntrack de Super Metroid](https://www.youtube.com/watch?v=ZVRi3JNuBCo&list=PL0BCE0BA953AC33E4)
 
