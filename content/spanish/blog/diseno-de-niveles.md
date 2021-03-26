@@ -171,3 +171,22 @@ Muchas Gracias por haber leído este blog un poco extenso, te dejaré unos links
 > * [Cómo Crear Niveles como Nintendo - Super Mario Maker 2 | PLANO DE JUEGO](https://www.youtube.com/watch?v=8HWO4iT5yxQ&t=23s)
 > * [La narrativa del videojuego \[Opinión\] - Post Script](https://www.youtube.com/watch?v=9JQgLwoRM-M)
 > * [Super Metroid y el Valor de las Introducciones | PLANO DE JUEGO](https://www.youtube.com/watch?v=z0ev03doJyI)
+
+**Lecturas Relacionadas**
+
+> * [DE OTRAS FORMAS NARRATIVAS](https://guionistasvlc.wordpress.com/2014/07/16/de-otras-formas-narrativas/)
+> * [The significance of plot without conflict](https://stilleatingoranges.tumblr.com/post/25153960313/the-significance-of-plot-without-conflict)
+> * [Kishōtenketsu – Creando historias sin conflicto](https://guiondevideojuegos.com/guion/escribir/kishotenketsu-creando-historias-sin-conflicto/)
+> * [Diseñar un nivel para un Videojuego](https://www.gametopia.es/learning/article/06/2018/41/disenar-nivel-para-videojuego)
+
+Por si quieres ambientarte mientras vulves a leer la última parte te dejo una playlist con la música usada en Super Metroid
+
+> * [El Soudntrack de Super Metroid](https://www.youtube.com/watch?v=ZVRi3JNuBCo&list=PL0BCE0BA953AC33E4)
+
+Juegos que usan el Kishōtenketsu
+
+> * [Super Metroid](https://emulatorgames.online/games/snes/super-metroid)
+> * [Super Mario World](https://emulatorgames.online/games/snes/super-mario-world)
+> * [The Legend Of Zelda: A Link To The Past](https://emulatorgames.online/games/snes/the-legend-of-zelda-a-link-to-the-past)
+> * [Super Mario World 2 - Yoshi's Island](https://emulatorgames.online/games/snes/super-mario-world-2-yoshis-island)
+> * [Donkey Kong Country](https://emulatorgames.online/games/snes/donkey-kong-country)
