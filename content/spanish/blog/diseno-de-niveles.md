@@ -1,8 +1,7 @@
 +++
-categories = ["Gamification", "Game Design"]
-date = 2021-03-24T05:00:00Z
+categories = ["Storytelling", "Gamification", "Game Design"]
+date = 2021-03-25T05:00:00Z
 description = "Introducción al diseño de niveles"
-draft = true
 image = "/images/photo-1580327344181-c1163234e5a0.webp"
 title = "Diseño de Niveles"
 type = "post"
