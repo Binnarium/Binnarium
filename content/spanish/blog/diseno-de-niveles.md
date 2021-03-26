@@ -75,9 +75,9 @@ Una vez resuelto el conflicto tras la pelea sea física, psicológica o emociona
 
 ## Narrativa Oriental
 
-Si nos ponemos a analizar las películas, libros, obras de teatro, cuentos, etc. vemos que en verdad muchos están escritos o narrados de forma aristotélica. Pero como ya se estableció en oriente se creo otra forma de narrar una historia y te la explico con un ejemplo hermoso dividido en 4 actos. 
+Si nos ponemos a analizar las películas, libros, obras de teatro, cuentos, etc. vemos que en verdad muchos están escritos o narrados de forma aristotélica. Pero como ya se estableció en oriente se creo otra forma de narrar una historia y te la explico con un ejemplo hermoso dividido en 4 actos.
 
-Usare en este caso Mi Vecino Totoro, si no la has visto corre a verla vale la pena si quieres puedes ver un resumen dando [clic aquí.](https://www.youtube.com/watch?v=nnVP3l9UIns) 
+Usare en este caso Mi Vecino Totoro, si no la has visto corre a verla vale la pena si quieres puedes ver un resumen dando [clic aquí.](https://www.youtube.com/watch?v=nnVP3l9UIns)
 
 ### Ki
 
@@ -117,13 +117,13 @@ Al igual que con las películas usare un ejemplo para ilustrar como se logra est
 
 ### Ki
 
-Algo que distingue a Metroid de otros juegos de la época es su capacidad para crear el ambiente, que es algo que se logra con este tipo de narrativa. Empieza con una música lugubre que ya desde el inicio te pone en cotexto, también escuchamos el sonido de la respiración de la protagonista Samus Aran (la primer mujer protagonista de un videojuego), tan solo con sonidos y el titulo de inicio ya empieza a darnos una sensación de soledad. 
+Algo que distingue a Metroid de otros juegos de la época es su capacidad para crear el ambiente, que es algo que se logra con este tipo de narrativa. Empieza con una música lugubre que ya desde el inicio te pone en cotexto, también escuchamos el sonido de la respiración de la protagonista Samus Aran (la primer mujer protagonista de un videojuego), tan solo con sonidos y el titulo de inicio ya empieza a darnos una sensación de soledad.
 
 El inicio continua con la cara de Samus en primer plano para que veamos a quien vamos a controlar, esto sirve para crear empatía con el jugador.
 
 ![](https://cdn.wallpapersafari.com/57/6/yNOVci.jpg)
 
-Lo siguiente que tienes es una recapitulación rápida de juegos pasados para dar más contexto a la historia que se está contando ya que Super Metroid era la continuación de Metroid para la NES y Metroid para la Game Boy.  En esta sección podemos ver como Samus teniendo la orden de destruir a todos los Metroid, decide no acabar con el último ya que era solo una cría. 
+Lo siguiente que tienes es una recapitulación rápida de juegos pasados para dar más contexto a la historia que se está contando ya que Super Metroid era la continuación de Metroid para la NES y Metroid para la Game Boy.  En esta sección podemos ver como Samus teniendo la orden de destruir a todos los Metroid, decide no acabar con el último ya que era solo una cría.
 
 Con esto el juego ya nos establece a una protagonista compasiva maternal pero al igual ruda, que se oculta detrás de una armadura que le hace parecer un robot y pierde cualquier rastro de humanidad visible. Que vive aventuras en lugares inhóspitos llenos de criaturas extrañas pero lo hace sola.
 
@@ -143,7 +143,7 @@ Haciendo el recorrido del laboratorio llegamos hasta la sala central que aparece
 
 ![](https://thebokoblin.com/wp-content/uploads/2019/09/images_jmaison_Video_Games_Metroid_super-metroid-is-awesome-stop-reading-my-image-file-names-dude-1280x720.png)
 
-En la siguiente sala te encuentras con el bebe Metroid, parece estar bien, la música se detiene y tienes un momento de relax. Pero claro el bebe no estaba solo con el se encuentra Ridley (el jefe de los piratas espaciales). 
+En la siguiente sala te encuentras con el bebe Metroid, parece estar bien, la música se detiene y tienes un momento de relax. Pero claro el bebe no estaba solo con el se encuentra Ridley (el jefe de los piratas espaciales).
 
 ![](https://64.media.tumblr.com/0eced30168f6b26a53855d28ef543ea0/tumblr_mzlkh4d30l1qd4q8ao1_500.gif)
 
@@ -178,11 +178,11 @@ Muchas Gracias por haber leído este blog un poco extenso, te dejaré unos links
 > * [Kishōtenketsu – Creando historias sin conflicto](https://guiondevideojuegos.com/guion/escribir/kishotenketsu-creando-historias-sin-conflicto/)
 > * [Diseñar un nivel para un Videojuego](https://www.gametopia.es/learning/article/06/2018/41/disenar-nivel-para-videojuego)
 
-Por si quieres ambientarte mientras vulves a leer la última parte te dejo una playlist con la música usada en Super Metroid
+**Por si quieres ambientarte mientras vulves a leer la última parte te dejo una playlist con la música usada en Super Metroid**
 
 > * [El Soudntrack de Super Metroid](https://www.youtube.com/watch?v=ZVRi3JNuBCo&list=PL0BCE0BA953AC33E4)
 
-Juegos que usan el Kishōtenketsu
+**Juegos que usan el Kishōtenketsu**
 
 > * [Super Metroid](https://emulatorgames.online/games/snes/super-metroid)
 > * [Super Mario World](https://emulatorgames.online/games/snes/super-mario-world)
