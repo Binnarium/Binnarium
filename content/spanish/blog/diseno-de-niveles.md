@@ -32,10 +32,78 @@ Sigues caminando y golpeas otra caja y sale una cosa extraña con una forma pare
 
 Con eso Nintendo sin decirte absolutamente nada te ha enseñado a jugar, ya puedes dominar las mecánicas básicas de aplastar caminar y saltar, en cada nivel aprenderás nuevas mecánicas que enriquecerán el gameplay. Esto lo logra gracias a un método llamado **Kishōtenketsu.**
 
-# Kishōtenketsu en el diseño de niveles
+# Kishōtenketsu
 
 Ya se que que te estarás preguntando ¿Qué es el [**Kishōtenketsu**](https://www.youtube.com/watch?v=8Onb1zjDTHs)?
 
 > Kishōtenketsu (起承転結) describe la estructura y desarrollo de narrativas chinas y japonesas. Originalmente era usado en la poesía china como composición de cuatro líneas, es también conocido como 'kishōtengō' (起承転合). El primer carácter chino se refiere a la introducción o 'kiku' (起句?), le sigue: el desarrollo, 'shōku' (承句), el tercero: el giro, 'tenku' (転句), y el último carácter indica la conclusión o 'kekku' (結句). 句 la frase (句, ku), y 合 (ír) significa "punto de encuentro de 起 y 転" para la conclusión.
 
-Ahora en español 
+Si no le cachaste no hay problema lo veremos con una comparación entre la narrativa de toda la vida occidental y la narrativa del Kishōtenketsu.
+
+## Narrativa Occidental
+
+Para la narrativa occidental (si esa que venimos arrastrando desde que se escribió la Ilíada, la Odisea y contábamos historias en las fogatas) no hay historia sin conflicto. Esto es lo que llamamos narrativa aristotélica, la cual esta conformada por 3 actos.
+
+### El planteamiento
+
+![](https://i1.wp.com/www.wiriko.org/wp-content/uploads/2015/07/everything-the-light-touches-the-lion-king-27587241-1920-10801.jpg)
+
+Un clásico de Disney El Rey León (trataré de no llorar al recordar esta historia), el primer acto nos presenta a Simba con una de las [mejores canciones](https://www.youtube.com/watch?v=Zn_qirpdBag) de Disney, conforme va avanzando nos presentan a los personajes como Scar, Mufasa, Nala etc. Y también los deseos de Simba de ser rey y gobernar todo lo que toca la luz.
+
+Este primer acto termina con el detonante en este caso (SPOILER ALERT) es la muerte de Mufasa (al final si llore con esto). Con esto se da paso al punto de inflexión, que es cuando Simba decide salir corriendo del reino y no volver nunca más.
+
+![](https://pyxis.nymag.com/v1/imgs/e30/6e0/3fee7b7dd8f670c6dda151261500db5936-15-the-lion-king-mufasa-1.2x.h467.w700.jpg)
+
+### El nudo
+
+En el segundo acto es donde Simba conoce a Timón y Pumba y empiezan a vivir nuevas aventuras bajo el lema de Hakuna Mattata (vive y deja vivir). En este acto encontramos el conflicto, para Simba su conflicto es con su pueblo con quien su padre le enseño a ser y con las enseñanzas de Timón y Pumba (también existe el conflicto externo por Scar, pero el rey león se centra más en el conflicto interno de Simba).
+
+![](https://www.minutoe.com/u/fotografias/m/2020/5/11/f500x333-11976_35779_0.jpeg)
+
+También es este el momento de presentar tramas secundarias, como la vida de las leonas en el régimen de Scar. El segundo acto termina con un segundo punto de inflexión, en este caso es después de la llegada de Nala a la vida de Simba y la charla con el babuino loco, que Simba se decide a regresar y plantarle cara a Scar.
+
+![](https://i1.wp.com/pune.gen.in/wm/wp-content/uploads/sites/5/2017/03/rc6nNy9r2bXX6KQz6HiC.jpg)
+
+### El desenlace
+
+El final, donde todo concluye. Este es el acto donde encontramos el clímax el punto más álgido de la historia, el que te tiene al borde del asiento expectante de lo que pasará, supongo que ya adivinareis cual es el clímax del rey león.... exacto la batalla final Simba contra Scar.
+
+![](https://i.pinimg.com/originals/99/8a/aa/998aaaa66bd3e761ce86197a54fb34dd.jpg)
+
+Una vez resuelto el conflicto tras la pelea sea física, psicológica o emocional se tiene el final. Por suerte Disney nos dio un bonito final con el reino floreciendo de nuevo con Simba como rey con una hija que repetirá el ciclo de la vida.
+
+![](https://townsquare.media/site/442/files/2016/09/lion-king.jpg)
+
+## Narrativa Oriental
+
+Si nos ponemos a analizar las películas, libros, obras de teatro, cuentos, etc. vemos que en verdad muchos están escritos o narrados de forma aristotélica. Pero como ya se estableció en oriente se creo otra forma de narrar una historia y te la explico con un ejemplo hermoso dividido en 4 actos. 
+
+Usare en este caso Mi Vecino Totoro, si no la has visto corre a verla vale la pena si quieres puedes ver un resumen dando [clic aquí.](https://www.youtube.com/watch?v=nnVP3l9UIns) 
+
+### Ki
+
+El ki es el primer acto, al igual que en la narrativa aristotélica nos sirve para mostrar a los personajes y su mundo. En Mi vecino Totoro comenzamos conociendo a unas niñas que se acaban de mudar a una casa en el campo, viven con su papa y su mama esta enferma en el hospital. En esta primera sección vemos los miedos y angustias de los personajes pero sin ahondar mucho en ellos.
+
+![](https://pbs.twimg.com/media/D066uFtWsAAHlXC.jpg)
+
+### Sho
+
+Es el desarrollo, aquí se profundiza más en el mundo y los personajes. En Mi vecino Totoro no se profundiza en la enfermedad de la madre de las niñas y lo angustiadas que podrían estar, si no más bien en la exploración del nuevo mundo al que han ido a vivir y que allí encuentran criaturas mágicas.
+
+![](https://pics.filmaffinity.com/Mi_vecino_Totoro-805843106-large.jpg)
+
+### Ten
+
+Aquí viene un giro en la trama, es la integración de un elemento nuevo, no es necesariamente un conflicto. En Totoro la niña más pequeña se pierde, y su hermana la busca generando así una angustia por su hermana, más no un conflicto en términos clásicos (no hay un choque de fuerzas internas o externas que busquen dos lados opuestos).
+
+![](https://i.gifer.com/DZv.gif)
+
+### Ketsu
+
+Es la conclusión cuando se sintetiza todo lo que sucede. En Totoro, terminan encontrando a la niña más pequeña gracias a la ayuda de Totoro y el Gato Bus y una vez reencontradas van a visitar a su madre montadas en Totoro. Al final se une estar encontrado y estar perdido que les atraviesa durante toda la película que se ven con la angustia de su madre enferma y una mudanza.
+
+![](https://tupersonajefavorito.com/wp-content/uploads/2018/06/Mi-vecino-Totoro-feliz.jpg)
+
+## En el diseño de niveles
+
+Todo muy chido y chévere de formas de narrativas pero y eso ¿Qué tiene que ver con el diseño de niveles en videojuegos?, te preguntarás, ya voy no desesperes.
