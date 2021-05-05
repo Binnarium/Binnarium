@@ -3,6 +3,7 @@ bg_image = "/images/casa-abierta-eventos.jpg"
 description = "Expo UTPL 360 Casa abierta virtual de la UTPL 2021 y primera Casa abierta de la modalidad Abierta y a Distancia."
 image = "/images/casaabierta.png"
 title = "Expo UTPL 360"
+weight = 1
 [[information]]
 icon = "ti-calendar"
 name = "Fecha"

@@ -6,6 +6,7 @@ project_url: https://themefisher.com/
 category: 
 description: Un ecosistema digital es un sistema abierto, adaptado y distribuido con
   propiedades de escalabilidad y sostenibilidad.
+weight: 4
 information:
 - name: Fecha
   value: 27 de agosto, 2020
