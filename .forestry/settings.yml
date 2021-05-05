@@ -23,7 +23,7 @@ sections:
   templates:
   - portafolio
 - type: heading
-  label: Mundo Binarium
+  label: Mundo Binnarium
 - type: document
   path: content/spanish/blog/_index.md
   label: Inicio

@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 baseURL = "https://binnariumedu.com"
-title = "Binarium"
+title = "Binnarium"
 # post pagination
 paginate = "6"
 # post excerpt
@@ -40,22 +40,22 @@ link = "plugins/google-map/gmap.js"
 
 # main menu
 [[menu.main]]
-name = "Binarium"
+name = "Binnarium"
 weight = 1
 hasChildren = true
 
   [[menu.main]]
-  parent = "Binarium"
-  name = "Somos Binarium"
+  parent = "Binnarium"
+  name = "Somos Binnarium"
   URL = "about"
 
   [[menu.main]]
-  parent = "Binarium"
+  parent = "Binnarium"
   name = "Equipo"
   URL = "employee"
 
 #  [[menu.main]]
-#  parent = "Binarium"
+#  parent = "Binnarium"
 #  name = "Trabajos"
 #  URL = "scholarship"
 
@@ -65,7 +65,7 @@ URL = "portfolio"
 weight = 2
 
 [[menu.main]]
-name = "Mundo Binarium"
+name = "Mundo Binnarium"
 URL = "blog"
 weight = 4
   
@@ -76,14 +76,14 @@ weight = 5
 
 #################### default parameters ################################
 [params]
-logo = "images/logo.png"
+logo = "images/binnarium-logo-white.svg"
 # Meta data
 description = "Generando Innovación en el modelo de enseñanza aprendizaje"
-author = "Binarium"
+author = "Binnarium"
 # contact info
 address = "San Cayetano Alto, Calle París, Loja"
 mobile = "+593 98 730 7747"
-email = "serviciocliente@binarium.io"
+email = "serviciocliente@Binnarium.io"
 # contact form action
 contact_form_action = "#" # contact form works with https://formspree.io
 # Google Analitycs
@@ -146,7 +146,7 @@ contentDir = "content/spanish"
 weight = 1
 home = "Inicio"
 # copyright
-copyright = "Derechos de Autor &copy; 2020 Binarium"
+copyright = "Derechos de Autor &copy; 2020 Binnarium"
 
 #################################### English language #####################################
 # [Languages.en]
@@ -156,6 +156,6 @@ copyright = "Derechos de Autor &copy; 2020 Binarium"
 # weight = 2
 # home = "Home"
 # # copyright
-# copyright = "Copyright &copy; 2020 Binarium"
+# copyright = "Copyright &copy; 2020 Binnarium"
 
 

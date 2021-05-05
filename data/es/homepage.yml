@@ -48,7 +48,7 @@ banner_feature:
     content: Design Thinking - Universidad de Virginia
 about:
   enable: true
-  title: Somos Binarium
+  title: Somos Binnarium
   image: images/about/about-us.jpg
   content: Generamos innovación en el modelo de enseñanza aprendizaje.
   button:
@@ -78,4 +78,4 @@ success_story:
   video_link: https://www.youtube.com/watch?v=F8dA899y8pU
 blog:
   enable: true
-  title: Mundo Binarium
+  title: Mundo Binnarium

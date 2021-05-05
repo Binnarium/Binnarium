@@ -66,7 +66,7 @@ banner_feature:
 ############################## about ##################################
 about:
   enable : true
-  title : "About Binarium"
+  title : "About Binnarium"
   image : "images/about/about-us.jpg"
   content : "We are innovating in the new learning model."
   button:
