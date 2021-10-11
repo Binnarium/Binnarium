@@ -1,6 +1,6 @@
 +++
 categories = ["Software y Tecnología"]
-date = 2021-03-01T13:00:00Z
+date = 2021-03-02T13:00:00Z
 description = "Descripción breve de los patrones de diseño "
 image = "/images/1.png"
 title = "Patrones de Diseño"

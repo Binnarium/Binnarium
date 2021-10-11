@@ -36,5 +36,7 @@ fields:
       title="https://themify.me/themify-icons" target="_blank">https://themify.me/themify-icons</a>'
   description: Lista de características del proyecto
 pages:
+- content/spanish/portfolio/asesorias-y-capacitaciones-con-puce-si.md
 - content/spanish/portfolio/expo-utpl-360.md
 - content/spanish/portfolio/lectulab.md
+- content/spanish/portfolio/rifa-solidaria.md
