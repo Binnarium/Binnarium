@@ -2,7 +2,6 @@
 categories = ["Software y Tecnología"]
 date = 2021-03-02T13:00:00Z
 description = "Descripción breve de los patrones de diseño "
-draft = true
 image = "/images/1.png"
 title = "Depresión y Videojuegos | Como ayudar a nuestra mente"
 type = "post"
