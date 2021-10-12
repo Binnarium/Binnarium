@@ -17,7 +17,6 @@ name = "Categoría"
 value = "Asesoría y Capacitación"
 
 +++
-**_¡Encontrar tu carrera del futuro con la UTPL es más fácil de lo que crees!_**
 
 Con el objetivo de promover el acceso a la educación superior y que los jóvenes que cuenten con un título de bachillerato puedan obtener un título profesional, se ha organizado la Casa Abierta ‘Expo UTPL 360’, para dar a conocer las carreras de grado que oferta la institución.
 
