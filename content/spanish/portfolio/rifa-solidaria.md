@@ -21,3 +21,5 @@ También tenía una sección para visualizar los premios rifados mediante un car
 Desde la página web podían buscar un boleto, ver si su número ya había sido comprado o comprar uno en su defecto. Al comprar el boleto recibian una copia de este con su nombre.
 
 ![](/images/group-35.png)
+
+BINNARIUM se ha visto solidarizado
