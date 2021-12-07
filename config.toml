@@ -87,7 +87,7 @@ email = "serviciocliente@Binnarium.io"
 # contact form action
 contact_form_action = "#" # contact form works with https://formspree.io
 # Google Analitycs
-google_analitycs_id = ""
+google_analitycs_id = "G-7646SZ28XL"
 # top header
 top_header = false
 
